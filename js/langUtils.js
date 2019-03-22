@@ -21,7 +21,32 @@ var dic ={
                 ua:"Статті",
                 ru:"Статьи",
                 en:"Articles"
-            }
+            },
+            mnPortfolioSim:{
+                ua:"Сімейна",
+                ru:"Семейная",
+                en:"ХХХ"
+            },
+            mnlPortfolioInd:{
+                ua:"Індивідуальна",
+                ru:"Индивидуальная",
+                en:"ХХХ"
+            },
+            mnlPortfolioDyt:{
+                ua:"Дитяча",
+                ru:"Детская",
+                en:"ХХХ"
+            },
+            mnlPortfolioLove:{
+                ua:"Love Story",
+                ru:"Love Story",
+                en:"Love Story"
+            },
+            mnPortfolioStory:{
+                ua:"Фото історії",
+                ru:"Фото истории",
+                en:"Articles"
+            },
         };
 
 

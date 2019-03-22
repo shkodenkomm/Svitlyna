@@ -16,11 +16,11 @@
                    lanId="lblPortfolio"
                    href="#" role="button" aria-haspopup="true" aria-expanded="false">Портфоліо</a>
                 <div class="dropdown-menu ">
-                    <a href="#" class="dropdown-item">Сімейна</a>
-                    <a href="#" class="dropdown-item">Індивідуальна</a>
-                    <a href="#" class="dropdown-item">Дитяча</a>
-                    <a href="#" class="dropdown-item">Love Story</a>
-                    <a href="#" class="dropdown-item">Фото історії</a>
+                    <a href="#" class="dropdown-item" lanId="mnPortfolioSim">Сімейна</a>
+                    <a href="#" class="dropdown-item" lanId="mnlPortfolioInd">Індивідуальна</a>
+                    <a href="#" class="dropdown-item" lanId="mnlPortfolioDyt">Дитяча</a>
+                    <a href="#" class="dropdown-item" lanId="mnlPortfolioLove">Love Story</a>
+                    <a href="#" class="dropdown-item" lanId="mnPortfolioStory">Фото історії</a>
                 </div>
             </li>
             <li class="nav-item  active" style="margin-right:1rem">
@@ -30,7 +30,7 @@
                 <a class="nav-link" lanId="lblArticles" href="#" >Статті</a>
             </li>
            </ul>
-        <form class="form-inline mt-2 mt-md-0" style="margin-left:3rem">
+        <form id="langs" class="form-inline mt-2 mt-md-0" style="margin-left:3rem">
             <button class="btn  my-2 my-sm-1" onclick="trate('ua')">UA</button>
             <button class="btn  my-2 my-sm-1" onclick="trate('ru')" >RU</button>
             <button class="btn  my-2 my-sm-1" onclick="trate('en')">EN</button>
