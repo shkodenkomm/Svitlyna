@@ -6,6 +6,15 @@
     background-color: #ffffff;
 }
 
+.carousel-control-next-icon {
+    color: #1d2124;
+    font-size: xx-large;
+}
+
+.carousel-control-prev-icon {
+    color: #1d2124;
+    font-size: xx-large;
+}
 
 /*ереопределил позицию надписи*/
 .carousel-caption-top {
@@ -16,7 +25,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 4rem;
-    color: #fff;
+    color: #1e7e34;
     text-align: -webkit-left;
 }
 
