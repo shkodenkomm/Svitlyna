@@ -55,7 +55,6 @@ function trate(lang){
 
    $("[lanId]").each(function (index, element) {
        var id = $(element).attr('lanId');
-       console.log("lid "+id);
        $(element).text(dic[id][lang]);
    });
 
