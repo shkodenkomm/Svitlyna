@@ -3,30 +3,96 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        .header {
+          border: 1px solid red;
+          padding: 15px;
+        }
+
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+        [class*="col-"] {
+          float: left;
+          padding: 15px;
+          border: 1px solid red;
+        }
+
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        @font-face {
+          font-family: mistral;
+          src: url(/css/mistral.ttf);
+        }
+
+        nav p, .nav-link{
+          font-family: mistral;
+          font-size: large;
+        }
+
+        .main_logo{
+            background-image: linear-gradient(to right, rgba(62,184,254,0.6) 10%, rgba(252,237,182,0.9) 50%);
+        }
+        .topnav{
+            background-image: linear-gradient(to left, rgba(252,237,182,0.8), rgba(252,237,182,0.1));
+        }
+    </style>
+
     <link rel="stylesheet" href="/css/top_nav.css">
     <link rel="stylesheet" href="/css/drop_down.css">
     <script src="/js/utils.js"></script>
 </head>
 
 <body style="min-width: 240px">
-    <header>
-        <nav class="topnav">
-            <img src="favicon.ico" alt="PIG"  width="60" height="60">
-            <a href="#">111111</a>
-            <div class="dropdown" id="menu1">
-                <a class="dropbtn" href="#" onclick="toogleMenu('menu1')">2222222222</a>
-                <div class="dropdown-content">
-                    <a href="#">vvvvvv</a>
-                    <a href="#">bbbbbb</a>
-                    <a href="#">nnnnnn</a>
-                </div>
+    <header class ="row">
+        <div class=col-2></div>
+        <div class="col-8">
+            <div class="main_logo">
+                <img src="/imgs/Cool-Text.png" alt="PIG" height="150">
             </div>
-            <a href="#">3333333</a>
-            <section class="nav_right_group">
-                <a href="#">XXX</a>
-                <a href="#">YYY</a>
-            </section>
-        </nav>
+            <nav class="topnav">            
+                <a class="nav-link" href="#">ГЛАВНАЯ</a>
+                <p>/</p>
+                <div class="dropdown" id="menu1">
+                    <a class="dropbtn nav-link" href="#" onclick="toogleMenu('menu1')">&nbsp;&nbsp;ПОРТФОЛИО&nbsp;&nbsp;</a>
+                    <div class="dropdown-content">
+                        <a href="#">Семейная фотосессия</a>
+                        <a href="#">Детская фотосессия</a>
+                        <a href="#">Портретная фотосессия</a>
+                        <a href="#">Фотосессия с животными</a>
+                        <a href="#">Фотосессия Muriad Pro</a>
+                    </div>
+                </div>
+                <p>/</p>
+                <a class="nav-link" href="#">УСЛУГИ</a>
+                <p>/</p>
+                <a class="nav-link" href="#">СЕРИИ</a>
+                <p>/</p>
+                <a class="nav-link" href="#">СТАТЬИ</a>
+                <p>/</p>  
+                <a class="nav-link" href="#">ОБО МНЕ</a>
+            </nav>
+        </div>
+        <div class=col-2></div>
     </header>
     <main>
         <section>
