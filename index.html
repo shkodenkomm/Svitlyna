@@ -14,49 +14,47 @@
 
 <body style="min-width: 240px; background-color: black">
     <header class ="row">
-        <div class="col-2"><p></p></div>
-        <div class="col-8">
+        <div class="col-2 col-s-0 col-m-0" ><p></p></div>
+        <div class="col-8 col-s-12">
             <div class="main_logo">
                 
-                <div>
+                <div class="logo_container">
                     <img src="/imgs/Cool-Text.png" alt="PIG">
                 </div>          
-                <div>  
+                <div class=nav_container>  
                     <nav class="topnav">  
-                <a class="nav-link" href="#">ГЛАВНАЯ</a>
-                <p>/</p>
-                <div class="dropdown" id="menu1">
-                    <a class="dropbtn nav-link" href="#" onclick="toogleMenu('menu1')">&nbsp;&nbsp;ПОРТФОЛИО&nbsp;&nbsp;</a>
-                    <div class="dropdown-content">
-                        <a href="#">Семейная фотосессия</a>
-                        <a href="#">Детская фотосессия</a>
-                        <a href="#">Портретная фотосессия</a>
-                        <a href="#">Фотосессия с животными</a>
-                    </div>
+                        <a class="nav-link" href="#">ГЛАВНАЯ</a>
+                        <p>/</p>
+                        <div class="dropdown" id="menu1">
+                            <a class="dropbtn nav-link" href="#" onclick="toogleMenu('menu1')">&nbsp;&nbsp;ПОРТФОЛИО&nbsp;&nbsp;</a>
+                            <div class="dropdown-content">
+                                <a href="#">Семейная фотосессия</a>
+                                <a href="#">Детская фотосессия</a>
+                                <a href="#">Портретная фотосессия</a>
+                                <a href="#">Фотосессия с животными</a>
+                            </div>
+                        </div>
+                        <p>/</p>
+                        <a class="nav-link" href="#">УСЛУГИ</a>
+                        <p>/</p>
+                        <a class="nav-link" href="#">СЕРИИ</a>
+                        <p>/</p>
+                        <a class="nav-link" href="#">СТАТЬИ</a>
+                        <p>/</p>  
+                        <a class="nav-link" href="#">ОБО МНЕ</a>
+                    </nav>
                 </div>
-                <p>/</p>
-                <a class="nav-link" href="#">УСЛУГИ</a>
-                <p>/</p>
-                <a class="nav-link" href="#">СЕРИИ</a>
-                <p>/</p>
-                <a class="nav-link" href="#">СТАТЬИ</a>
-                <p>/</p>  
-                <a class="nav-link" href="#">ОБО МНЕ</a></nav>
-                </div>
-            </div></div>
-        <div class="col-2"><p></p></div>
+            </div>
+         </div>
+        <div class="col-2 col-s-0 col-m-0"><p></p></div>
     </header>
     <main>
         <section class="row">
-            <div class="col-2"><p></p></div>
-            <div class="col-8" >
+            <div class="col-2 col-s-0 col-m-0"><p></p></div>
+            <!-- карусель -->
+            <div class="col-8 col-s-12" >
                 <!-- Slideshow container -->
-                <div class="slideshow-container"
-                    onmouseover="showText()" 
-                    onmouseout="hideText()">
-
-
-
+                <div class="slideshow-container"  onmouseover="showText()"  onmouseout="hideText()">
                     <div class ="d-dot-container" >
                         <div class ="dot-container">
                             <span class="dot" onclick="currentSlide(1)">
@@ -104,86 +102,82 @@
                         </div>
                     </div>
 
-
-                <!-- Full-width images with number and caption text -->
-                 <div class="mySlides fade">
-                    <div class="numbertext">1 / 14</div>
-                    <img src="/imgs/main_slide/1.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 14</div>
-                    <img src="/imgs/main_slide/2.jpg" style="width:100%">
-                    <div class="text"></div>
-                  </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 14</div>
-                    <img src="/imgs/main_slide/3.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">4 / 14</div>
-                    <img src="/imgs/main_slide/4.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">5 / 14</div>
-                    <img src="/imgs/main_slide/5.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">6 / 14</div>
-                    <img src="/imgs/main_slide/6.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">7 / 14</div>
-                    <img src="/imgs/main_slide/7.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">8 / 14</div>
-                    <img src="/imgs/main_slide/8.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">9 / 14</div>
-                    <img src="/imgs/main_slide/9.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">10 / 14</div>
-                    <img src="/imgs/main_slide/10.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">11 / 14</div>
-                    <img src="/imgs/main_slide/11.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">12 / 14</div>
-                    <img src="/imgs/main_slide/12.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">13 / 14</div>
-                    <img src="/imgs/main_slide/13.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">13 / 14</div>
-                    <img src="/imgs/main_slide/13.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">14 / 14</div>
-                    <img src="/imgs/main_slide/14.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-
-
-
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 14</div>
+                        <img src="/imgs/main_slide/1.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 14</div>
+                        <img src="/imgs/main_slide/2.jpg" style="width:100%">
+                        <div class="text"></div>
+                      </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 14</div>
+                        <img src="/imgs/main_slide/3.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 14</div>
+                        <img src="/imgs/main_slide/4.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 14</div>
+                        <img src="/imgs/main_slide/5.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">6 / 14</div>
+                        <img src="/imgs/main_slide/6.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">7 / 14</div>
+                        <img src="/imgs/main_slide/7.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">8 / 14</div>
+                        <img src="/imgs/main_slide/8.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">9 / 14</div>
+                        <img src="/imgs/main_slide/9.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">10 / 14</div>
+                        <img src="/imgs/main_slide/10.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">11 / 14</div>
+                        <img src="/imgs/main_slide/11.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">12 / 14</div>
+                        <img src="/imgs/main_slide/12.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">13 / 14</div>
+                        <img src="/imgs/main_slide/13.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">13 / 14</div>
+                        <img src="/imgs/main_slide/13.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">14 / 14</div>
+                        <img src="/imgs/main_slide/14.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
 
                   <!-- Next and previous buttons -->
                   <div class="arrow prev" onclick="plusSlides(-1)">
@@ -194,13 +188,13 @@
                   </div>              
 
                 <!-- The dots/circles -->
-                </div>
-                <br> </div>
-            <div class="col-2"><p></p></div>
+                </div>            
+            </div>
+            <div class="col-2 col-s-0 col-m-0"><p></p></div>
         </section >
-        <section">
-            <div class="col-2"><p></p></div>
-            <div class="col-8">
+        <section>
+            <div class="col-2 col-s-0 col-m-0"><p></p></div>
+            <div class="col-8 col-s-12">
                 <section id="tiles">
                     <div class="col-6" id="tile1">
                         <div class="tile_caption col-12">
@@ -233,9 +227,9 @@
                         <div class="tile_img col-12">
                             <img src="/imgs/main_cats/IMGP3991_hq_hq.jpg">
                         </div>
-                    </div> </section>            
+                    </div> 
             </div>
-
+            <div class="col-2 col-s-0 col-m-0"><p></p></div>
         </section>
     </main>
     <script src="/js/slide.js"></script>
