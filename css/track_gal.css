@@ -1,0 +1,21 @@
+
+.row_gal {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-v {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  border : 1px solid blue;
+
+}
+
+.column-v img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}

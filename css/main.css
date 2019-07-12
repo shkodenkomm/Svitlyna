@@ -17,7 +17,7 @@
 	[class*="col-"] {
 	  width: 100%;
 	  float: left;      
-      /*border: 1px solid red;*/
+      border: 1px solid red;
 	}
 
 	@media only screen and (max-width: 600px) {
@@ -70,6 +70,7 @@
     nav p, .nav-link, .tile_caption{
       font-family: mistral;
       font-size: large;
+      color: darkblue;
     }
 
     .logo_container>img{
