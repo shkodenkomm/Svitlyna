@@ -4,16 +4,22 @@ class MainMenu{
 
 
     private $menu_html;
+    private $logo_container;
+    private $nav_container;
+    private $style;
 
     function __construct()
     {
-        $this->menu_html = 
-            '<link rel="stylesheet" href="/css/top_nav.css">
-            <link rel="stylesheet" href="/css/drop_down.css">
-            <div class="logo_container">
+        $this->style[] = '<link rel="stylesheet" href="/css/top_nav.css">';
+        $this->style[] = '<link rel="stylesheet" href="/css/drop_down.css">';
+
+        $this->logo_container =
+            '<div class="logo_container">
                 <img src="/imgs/Cool-Text.png" alt="PIG">
-             </div>          
-             <div class=nav_container>  
+            </div>';
+
+        $this->nav_container = 
+             '<div class=nav_container>  
                 <nav class="topnav">  
                     <a class="nav-link" href="/">ГЛАВНАЯ</a>
                     <p>/</p>
@@ -33,14 +39,17 @@ class MainMenu{
                     <p>/</p>
                     <a class="nav-link" href="#">СТАТЬИ</a>
                     <p>/</p>  
-                    <a class="nav-link" href="#">ОБО МНЕ</a>
+                    <a class="nav-link" href="/contacts.php">ОБО МНЕ</a>
                 </nav>
              </div>';
     } 
 
     function doit(){
 
-       echo $this->menu_html;
+        $this->menu_html = $this->style[0].$this->style[1].$this->logo_container.$this->nav_container;
+
+
+        echo $this->menu_html;
     }
 }
 

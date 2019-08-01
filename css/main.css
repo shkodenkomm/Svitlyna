@@ -4,7 +4,7 @@
 
     body{
       min-width: 240px; 
-      background-color: black
+      background-color: black;
     }
 
   .row{
@@ -22,7 +22,7 @@
   [class*="col-"] {
     width: 100%;
     float: left;      
-    /*border: 1px solid red;*/
+    border: 1px solid red;
   }
 
   @media only screen and (max-width: 600px) {
