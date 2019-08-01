@@ -5,3 +5,10 @@
     .services{
       background-color: white;
     }
+
+    hr{
+      border: 1px solid grey;
+      width: 100%;      
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }

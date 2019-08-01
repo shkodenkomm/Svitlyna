@@ -32,9 +32,9 @@
         <div class="col-2 col-s-0 col-m-0"><p></p></div>
     </header>
     <main>
-        <section class="row">
+        <section class="row ">
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
-            <div class="col-8 col-s-12 serv-box" ><p></p></div>
+            <div class="col-8 col-s-12 services" style="border-bottom: 2px solid grey" ><p></p></div>
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
         </section>
               
@@ -145,11 +145,12 @@
                                     </dt>
                                     <dt>
                                         <p>КОЛИЧЕСТВО ОБРАЗОВ</p>
-                                        <p>2-5 образов</p>
+                                        <p style="margin-bottom: 2rem;">2-5 образов</p>
+
                                     </dt>
                                     <dt>
                                         <p>СРОК ГОТОВНОСТИ ФОТО</p>
-                                        <p style="margin-bottom: 2rem;">7-10 дней</p>
+                                        <p>7-10 дней</p>
                                     </dt>
                                     <dt>
                                         <p>СПОСОБ ПОЛУЧЕНИЯ ФОТО</p>
@@ -167,9 +168,20 @@
             </div>
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
         </section >
+        
         <section class="row">
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
-            <div class="col-8 col-s-12 serv-box" ><p></p></div>
+            <div class="col-8 col-s-12 services" >
+                <div style="display: flex;">
+                    <hr/>
+                    <div style="margin:auto; white-space: nowrap;">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</div>
+                    <hr/>
+                </div>
+                <article style="white-space: pre-wrap;">Много 
+                   неформатированого 
+                   текста
+                </article>
+            </div>
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
         </section>        
     </main>
