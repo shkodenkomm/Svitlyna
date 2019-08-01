@@ -6,16 +6,68 @@
 }
 
 /* Create four equal columns that sits next to each other */
-.column-v {
+.column-v4 {
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
-  border : 1px solid blue;
+  /*border : 1px solid blue;*/
 
 }
 
-.column-v img {
+.column-v4 img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
+
+
+.column-v2 {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 2px;
+  /*border : 1px solid green;*/
+
+}
+.column-v2 img {
+  margin-top: 4px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+.column-v {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 2px;
+  /*border : 1px solid yellow;*/
+}
+.column-v img {
+  margin: auto;
+  margin-top: 4px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+  @media only screen and (min-width: 800px) {
+    /* For mobiles 0: 
+       одна колонка
+    */
+    .desctop {display: flex;}
+    .tablet {display: none;}
+    .mobile {display: none;}
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For tablets: 
+      две колонки   */
+
+    .desctop {display: none;}
+    .tablet {display: flex;}
+    .mobile {display: none;}
+  }
+
+  @media only screen and (max-width: 360px) {
+    .desctop {display: none;}
+    .tablet {display: none;}
+    .mobile {display: flex;}
+  }

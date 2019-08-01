@@ -42,8 +42,8 @@ function hideText() {
 }
 
 // при старте начинает листать с интревалом  5с
-//var  slide = setInterval(
-//  function() {
-//    showSlides(slideIndex += 1);
-//  },  5000);
+var  slide = setInterval(
+  function() {
+    showSlides(slideIndex += 1);
+  },  5000);
 
