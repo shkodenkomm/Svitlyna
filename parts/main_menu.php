@@ -20,6 +20,7 @@ class MainMenu{
 
         $this->nav_container = 
              '<div class=nav_container>  
+                <div id="top_mail">mail@svitlyna.in.ua</div>
                 <nav class="topnav">  
                     <a class="nav-link" href="/">ГЛАВНАЯ</a>
                     <p>/</p>

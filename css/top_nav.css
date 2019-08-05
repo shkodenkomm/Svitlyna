@@ -26,6 +26,15 @@
 }
 
 
+#top_mail{
+    display: inline;
+    position: fixed;
+    padding:1rem;
+}
+
+
+
+
 /*убрать паддинг в главном меню*/
 @media only screen and (max-width: 1533px) {
    .topnav{
