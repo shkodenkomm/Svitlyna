@@ -32,10 +32,6 @@
     <div class="col-2 col-s-0 col-m-0" ><p></p></div>
     <div class="col-8 col-s-12" >
 
-      <!-- Trigger the Modal -->
-      <img id="myImg" class="preview" src="" alt="Fhoto" 
-      style="width:100%;display: none;">
-
       <!-- The Modal -->
       <div id="myModal" class="modal">
 
@@ -218,7 +214,6 @@
 
       <div class="row_gal mobile" >
         <div class="column-v" id="m1" > 
-
           <img class="preview" src="/imgs/gals/family/preview/1_б.jpg" alt="">
           <img class="preview" src="/imgs/gals/family/preview/2_б.jpg" alt="">
           <img class="preview" src="/imgs/gals/family/preview/3_б.jpg" alt="">
