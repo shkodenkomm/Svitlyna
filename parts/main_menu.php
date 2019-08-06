@@ -14,13 +14,12 @@ class MainMenu{
         $this->style[] = '<link rel="stylesheet" href="/css/drop_down.css">';
 
         $this->logo_container =
-            '<div class="logo_container">
-                <img src="/imgs/Cool-Text.png" alt="PIG">
+            '<div class="logo_container">'.
+            '<img src="/imgs/Cool-Text.png" alt="PIG">
             </div>';
 
         $this->nav_container = 
              '<div class=nav_container>  
-                <div id="top_mail">mail@svitlyna.in.ua</div>
                 <nav class="topnav">  
                     <a class="nav-link" href="/">ГЛАВНАЯ</a>
                     <p>/</p>
