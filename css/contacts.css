@@ -1,14 +1,29 @@
-   * {
-        box-sizing: border-box;
-    }
 
     .services{
       background-color: white;
     }
 
-    hr{
+    .contakts{
+       background-color: white;
+
+    }
+
+    .lined-caption{
+      display: flex;
+    }
+
+    .lined-caption>hr{
       border: 1px solid grey;
       width: 100%;      
       margin-left: 2rem;
       margin-right: 2rem;
+    }
+
+    .lined-caption>div{
+      margin:auto; 
+      white-space: nowrap;
+    }
+
+    .contakts article{
+       white-space: pre-wrap;
     }

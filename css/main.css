@@ -114,3 +114,7 @@
     position: relative;
     width: 100%;
   }
+
+  .off{
+    display: none;
+  }

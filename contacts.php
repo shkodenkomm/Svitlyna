@@ -32,13 +32,8 @@
         <div class="col-2 col-s-0 col-m-0"><p></p></div>
     </header>
     <main>
-        <section class="row ">
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
-            <div class="col-8 col-s-12 services" style="border-bottom: 2px solid grey" ><p></p></div>
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
-        </section>
-              
-        <section class="row">
+
+        <section class="row off">
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
             <div class="col-8 col-s-12" >
                <section class="services row">
@@ -171,13 +166,13 @@
         
         <section class="row">
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
-            <div class="col-8 col-s-12 services" >
-                <div style="display: flex;">
+            <div class="contakts col-8 col-s-12 " >
+                <div class="lined-caption">
                     <hr/>
-                    <div style="margin:auto; white-space: nowrap;">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</div>
+                    <div>Контактная информация</div>
                     <hr/>
                 </div>
-                <article style="white-space: pre-wrap;">Много 
+                <article>Много 
                    неформатированого 
                    текста
                 </article>

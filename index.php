@@ -31,20 +31,7 @@
          </div>
         <div class="col-2 col-s-0 col-m-0"><p></p></div>
     </header>
-    <main>
-        <section class="row">
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
-            <!--  info -->
-            <div class="col-8 col-s-12" >
-                <article id="main_inforemer" style="background-color: white;white-space: pre-line;">
-                    <p style="margin: 0">Сайт в разработке. В ближайшее время планируется страница контактов. Вопросы и предложения можно писать сюда: <b><i>mail@svitlyna.com.ua</i></b>
-                    </p>
-                    
-                </article>                            
-            </div>
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
-        </section >
-
+    <main>    
         <section class="row">
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
             <!-- карусель -->
