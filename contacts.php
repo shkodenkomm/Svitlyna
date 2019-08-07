@@ -195,7 +195,7 @@
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
         </section>      
 
-        <section class="row">
+        <section class="row" >
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
             <div class="contakts col-8 col-s-12" >  
                 <div class="col-2"><p></p></div>
