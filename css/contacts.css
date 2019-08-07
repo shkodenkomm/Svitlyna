@@ -17,6 +17,8 @@
       width: 100%;      
       margin-left: 2rem;
       margin-right: 2rem;
+      margin-bottom: auto;
+      margin-top: auto;
     }
 
     .lined-caption>div{
@@ -25,5 +27,29 @@
     }
 
     .contakts article{
-       white-space: pre-wrap;
+
     }
+
+   .contakts .text1{
+      text-indent: 2rem;
+      text-align: justify;
+      margin-top: 0;
+    }
+
+    ul.types{
+      text-align: justify;
+      padding-left: 33%;
+      margin-top: 0.5rem;
+    }
+
+  @media only screen and (max-width: 756px) {
+    .viber_desctop{display: none;}
+    .viber_mobile{display: block;}
+  }
+
+  
+  @media only screen and (min-width: 756px) {
+    .viber_desctop{display: block;}
+    .viber_mobile{display: none;}
+  }
+
