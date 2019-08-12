@@ -27,17 +27,17 @@ class MainMenu{
                         <a class="dropbtn nav-link" href="#" onclick="toogleMenu(\'menu1\')">&nbsp;&nbsp;ПОРТФОЛИО&nbsp;&nbsp;</a>
                         <div class="dropdown-content">
                             <a href="/gals/family.php">Семейная фотосессия</a>
-                            <a style="color: lightgrey" href="#">Детская фотосессия</a>
-                            <a style="color: lightgrey" href="#">Портретная фотосессия</a>
-                            <a style="color: lightgrey" href="#">Фотосессия с животными</a>
+                            <a style="color: grey" href="#">Детская фотосессия</a>
+                            <a style="color: grey" href="#">Портретная фотосессия</a>
+                            <a style="color: grey" href="#">Фотосессия с животными</a>
                         </div>
                     </div>
                     <p>/</p>
-                    <a style="color: lightgrey" class="nav-link" href="#">УСЛУГИ</a>
+                    <a style="color: grey" class="nav-link" href="#">УСЛУГИ</a>
                     <p>/</p>
-                    <a style="color: lightgrey" class="nav-link" href="#">СЕРИИ</a>
+                    <a style="color: grey" class="nav-link" href="#">СЕРИИ</a>
                     <p>/</p>
-                    <a style="color: lightgrey" class="nav-link" href="#">СТАТЬИ</a>
+                    <a style="color: grey" class="nav-link" href="#">СТАТЬИ</a>
                     <p>/</p>  
                     <a class="nav-link" href="/contacts.php">ОБО МНЕ</a>
                 </nav>

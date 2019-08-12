@@ -7,9 +7,9 @@
       background-color: black;
     }
 
-  .row{
-    padding-bottom: -1rem;
-  }
+  /*.row{
+    padding-bottom: -0.5rem;
+  }*/
 
     .row::after {
       content: "";
@@ -69,7 +69,7 @@
     }
 
     main{
-      margin-top: 0.3rem;
+      margin-top: 0.1rem;
     }
 
     nav p, .nav-link, .tile_caption{
