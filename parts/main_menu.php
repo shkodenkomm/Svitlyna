@@ -33,7 +33,7 @@ class MainMenu{
                         </div>
                     </div>
                     <p>/</p>
-                    <a style="color: grey" class="nav-link" href="#">УСЛУГИ</a>
+                    <a class="nav-link" href="/services.php">УСЛУГИ</a>
                     <p>/</p>
                     <a style="color: grey" class="nav-link" href="#">СЕРИИ</a>
                     <p>/</p>
