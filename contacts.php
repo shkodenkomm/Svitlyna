@@ -3,11 +3,12 @@
     ini_set('display_errors', 1);
 
     include "parts/main_menu.php";
+    include "parts/config.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <?php  echo $config->gtm["gan_head"];?> 
     <title>Контакты</title>
 
     <meta charset="utf-8">
