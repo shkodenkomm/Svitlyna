@@ -1,0 +1,40 @@
+
+  .services{
+      background-color: white;
+  }
+   
+  .serv-box{
+    padding: 1rem;
+    margin: auto;
+  }
+
+  .serv-caption>p{
+    background-color: #ececec;
+    margin: 0;
+    padding: 1rem;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+
+  .serv-details{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    background-color: #ececec;
+  }
+
+
+  @media only screen and (min-width: 800px) {
+    .desctop {display: flex;}
+    .mobile {display: none;}
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .desctop {display: none;}
+    .mobile { display: flex;}
+    .mobile div.serv-details{
+      display: none;
+    }
+  }
