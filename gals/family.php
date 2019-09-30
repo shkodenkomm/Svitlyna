@@ -17,6 +17,7 @@
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/track_gal.css">
+  <script src="/js/utils.js"></script>
 </head>
 <body>
    <?php  echo $config->gtm["gtm_body"]; ?> 
