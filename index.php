@@ -230,7 +230,7 @@
                             ПРОГУЛКА С ЛОШАДЯМИ
                         </div>
                         <div class="tile_img col-12">
-                            <a href="/gals/horses.php" class="tile_img  col-12">
+                            <a href="/gals/photo_walk_with_horses.php" class="tile_img  col-12">
                                 <img src="/imgs/main_cats/IMGP3991_hq_hq.jpg">
                             </a>
                         </div>

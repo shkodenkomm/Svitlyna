@@ -85,15 +85,16 @@
       flex-grow: 6;  
       display: flex;
       justify-content: flex-end;
-    position: relative;
+      position: relative;
     }
 
-    .main_logo{
-      padding-left: 1%;
-    display: flex;
-    flex-wrap: wrap;
-        background-image: linear-gradient(to right, rgba(62,184,254,0.6) 10%, rgba(252,237,182,0.9) 50%);
-    }
+
+   .main_logo{
+     padding-left: 1%;
+     display: flex;
+     flex-wrap: wrap;
+     background-image: linear-gradient(to right, rgba(69,184,254,0.6) 30%, rgba(252,237,182,0.7) 70%);
+   }
 
 
   article{
