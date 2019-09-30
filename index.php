@@ -1,34 +1,29 @@
 <?php 
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
-
+    include "parts/config.php";
     include "parts/main_menu.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145454799-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    
-    gtag('config', 'UA-145454799-1');
-  </script>
-  <title>Фото</title>
+    <title>Фото</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="/css/slide_show_main.css">
-  <link rel="stylesheet" href="/css/main.css">
-  <script src="/js/utils.js"></script>
+    <?php include "parts/head_links.php";
+          echo $config->gtm["gan_head"];
+          echo $config->gtm["gtm_head"];
+    ?>
+
+    <link rel="stylesheet" href="/css/slide_show_main.css">
 </head>
 
 <body>
     <header class ="row">
-        <div class="col-2 col-s-0 col-m-0" ><p></p></div>
-        <div class="col-8 col-s-12">
+        <div class="col-1 col-s-0 col-m-0" ><p></p></div>
+        <div class="col-10 col-s-12">
             <div class="main_logo">
                 <?php 
                     $menu= new MainMenu();
@@ -36,7 +31,7 @@
                 ?>
             </div>
          </div>
-        <div class="col-2 col-s-0 col-m-0"><p></p></div>
+        <div class="col-1 col-s-0 col-m-0"><p></p></div>
     </header>
     <main>
         <section class="row off">
@@ -53,9 +48,9 @@
         </section >
 
         <section class="row">
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
+            <div class="col-1 col-s-0 col-m-0"><p></p></div>
             <!-- карусель -->
-            <div class="col-8 col-s-12" >
+            <div class="col-10 col-s-12" >
                 <!-- Slideshow container -->
                 <div class="slideshow-container"  onmouseover="showText()"  onmouseout="hideText()">
                     <div class ="d-dot-container" >
@@ -193,11 +188,11 @@
                 <!-- The dots/circles -->
                 </div>            
             </div>
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
+            <div class="col-1 col-s-0 col-m-0"><p></p></div>
         </section >
         <section>
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
-            <div class="col-8 col-s-12">
+            <div class="col-1 col-s-0 col-m-0"><p></p></div>
+            <div class="col-10 col-s-12">
                 <section id="tiles">
                     <div class="col-6" id="tile1">
                         <div class="tile_caption col-12">
@@ -256,12 +251,12 @@
                         </div>
                         <div class="tile_img col-12">
                             <a href="#" class="tile_img  col-12">
-                                <img src="/imgs/main_cats/Титул%20для%20серий.jpg">
+                                <img src="/imgs/main_cats/seriet_titul.jpg">
                             </a>
                         </div>
                     </div>
             </div>
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
+            <div class="col-1 col-s-0 col-m-0"><p></p></div>
         </section>
     </main>
     <script src="/js/slide.js"></script>

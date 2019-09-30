@@ -48,7 +48,7 @@
   width: 100%;
 }
 
-  @media only screen and (min-width: 800px) {
+  @media only screen and (min-width: 600px) {
     /* For mobiles 0: 
        одна колонка
     */

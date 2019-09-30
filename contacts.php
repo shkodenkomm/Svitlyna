@@ -8,21 +8,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php  echo $config->gtm["gan_head"];?> 
     <title>Контакты</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="/css/main.css">
+    <?php include "parts/head_links.php";
+             echo $config->gtm["gan_head"];
+    ?>
+
     <link rel="stylesheet" href="/css/contacts.css">
-    <script src="/js/utils.js"></script>
+
 </head>
 
 <body>
     <header class ="row">
-        <div class="col-2 col-s-0 col-m-0" ><p></p></div>
-        <div class="col-8 col-s-12">
+        <div class="col-1 col-s-0 col-m-0" ><p></p></div>
+        <div class="col-10 col-s-12">
             <div class="main_logo">
                 <?php 
                     $menu= new MainMenu();
@@ -30,12 +32,12 @@
                 ?>
             </div>
          </div>
-        <div class="col-2 col-s-0 col-m-0"><p></p></div>
+        <div class="col-1 col-s-0 col-m-0"><p></p></div>
     </header>
     <main>        
         <section class="row">
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
-            <div class="contakts col-8 col-s-12 " >
+            <div class="col-1 col-s-0 col-m-0"><p></p></div>
+            <div class="contakts col-10 col-s-12 " >
                 <div class="col-2"><p></p></div>
                 <div class="col-8">
                     <div class="lined-caption">
@@ -74,12 +76,12 @@
                 </div>
                 <div class="col-2"><p></p></div>
             </div>
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
+            <div class="col-1 col-s-0 col-m-0"><p></p></div>
         </section>      
 
         <section class="row" >
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
-            <div class="contakts col-8 col-s-12" >  
+            <div class="col-1 col-s-0 col-m-0"><p></p></div>
+            <div class="contakts col-10 col-s-12" >
                 <div class="col-2"><p></p></div>
                 <div class="col-8">
                     <div class="lined-caption">
@@ -89,8 +91,7 @@
                     </div>
                     <article>
                         <p style="margin-top: 0">Вы можете задать мне все интересующие вас вопросы по телефону либо в личных сообщениях!</p>
-                        <p><a href="mailto:mail@svitlyna.in.ua">Написать письмо на mail@svitlyna.in.ua</a></p>
-                        
+
                         <p class="phone">+38 097 99 444 80</p>
 
                         <p class="viber_desctop">
@@ -111,7 +112,7 @@
                 </div>
                 <div class="col-2"><p></p></div>
             </div>
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
+            <div class="col-1 col-s-0 col-m-0"><p></p></div>
         </section >
     </main>
 </body>

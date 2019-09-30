@@ -13,11 +13,9 @@ include "parts/config.php";
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/contacts.css">
+    <?php include "parts/head_links.php" ?>
     <link rel="stylesheet" href="/css/services.css">
-    <script src="/js/utils.js"></script>
+
 </head>
 
 <body>
