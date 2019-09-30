@@ -89,7 +89,7 @@
     }
 
     .main_logo{
-      padding-left: 5%;
+      padding-left: 1%;
     display: flex;
     flex-wrap: wrap;
         background-image: linear-gradient(to right, rgba(62,184,254,0.6) 10%, rgba(252,237,182,0.9) 50%);
