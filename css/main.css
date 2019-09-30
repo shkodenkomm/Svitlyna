@@ -4,12 +4,8 @@
 
     body{
       min-width: 240px; 
-      background-color: black;
+      background-color: black
     }
-
-  /*.row{
-    padding-bottom: -0.5rem;
-  }*/
 
     .row::after {
       content: "";
@@ -22,7 +18,7 @@
   [class*="col-"] {
     width: 100%;
     float: left;      
-    border: 1px dotted red;
+    /*border: 1px solid red;ё*/
   }
 
   @media only screen and (max-width: 600px) {
@@ -47,7 +43,7 @@
     .col-s-12 {width: 100%;}
   }
 
-  @media only screen and (min-width: 756px) {
+  @media only screen and (min-width: 826px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -69,7 +65,7 @@
     }
 
     main{
-      margin-top: 0.1rem;
+      margin-top: 0.3rem;
     }
 
     nav p, .nav-link, .tile_caption{
