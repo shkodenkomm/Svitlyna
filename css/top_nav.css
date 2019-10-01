@@ -38,8 +38,8 @@
 
 /*убрать паддинг в главном меню*/
 @media only screen and (min-width: 500px) {
-   .topnav{
-       padding-right: 20px;
+    .topnav{
+        padding-right: 20px;
     }
     logo_container>img {
         height: 96px;
@@ -62,7 +62,7 @@
 
 /*убрать разделители меню*/
 @media only screen and (max-width: 350px) {
-   .topnav p{
+    .topnav p{
         display: none;
     }
 }
