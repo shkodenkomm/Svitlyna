@@ -1,68 +1,78 @@
-<?php 
+<?php
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
-
-    include "parts/main_menu.php";
     include "parts/config.php";
+    include "parts/main_menu.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<body>
 <head>
-    <?php  echo $config->gtm["gan_head"];?> 
-    <title>Разные фото</title>
-
+    <title>ФотоСерии</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <?php include "parts/head_links.php" ?>
+    <?php include "parts/head_links.php";
+            echo $config->gtm["gan_head"];
+            echo $config->gtm["gtm_head"];
+
+    ?>
 
     <link rel="stylesheet" href="/css/series.css">
-
 </head>
+<header class ="row">
+    <div class="col-1 col-s-0 col-m-0" ><p></p></div>
+    <div class="col-10 col-s-12">
+        <div class="main_logo">
+            <?php
+            $menu= new MainMenu();
+            $menu->doit();
+            ?>
+        </div>
+    </div>
+    <div class="col-1 col-s-0 col-m-0"><p></p></div>
+</header>
+<main>
+    <section class="row off">
+        <div class="col-2 col-s-0 col-m-0"><p></p></div>
+        <!--  info -->
+        <div class="col-8 col-s-12" >
+            <article id="main_inforemer" style="background-color: white;white-space: pre-line;">
+                <p></p>
+            </article>
+        </div>
+        <div class="col-2 col-s-0 col-m-0"><p></p></div>
+    </section >
 
-<body>
-    <header class ="row">
-        <div class="col-1 col-s-0 col-m-0" ><p></p></div>
-        <div class="col-10 col-s-12">
-            <div class="main_logo">
-                <?php 
-                    $menu= new MainMenu();
-                    $menu->doit();                    
-                ?>
-            </div>
-         </div>
+
+    <section>
         <div class="col-1 col-s-0 col-m-0"><p></p></div>
-    </header>
-    <main>        
-        <section class="row">
-            <div class="col-1 col-s-0 col-m-0"><p></p></div>
-            <div class="col-10 col-s-12 " >
-                <div class="seria">
-                    <div>
-                        <div class="img_part">
-                            <img src="/imgs/series/stasik_sci/preview/1.jpg">
-                        </div>
-                        <div class="text_part">
-                            <p>Что может быть увлекательнее, чем познавать окружающий мир? Представляю вашему вниманию историю про настоящего ученого Станислава Алексеевича. Очень интересно наблюдать, как маленькие дети пытаются копировать взрослых! Нашему герою Станиславу всего 4,5 года и он уже чувствует себя настоящим учёным как его родители!
-                                Я очень люблю эту фото историю, поскольку она содержат искреннюю непосредственную радость от открытия, живые эмоции ребенка. Она про нечто важное, трогательное, созерцательное, смешное, про "здесь и сейчас".
-                                Мальчик впервые увидел цветок через лупу! Для него это очень большое удивительное открытие! Он удивлен, и в тоже время рад и горд за себя! Вы знаете, как выглядит момент инсайта? Какое выражение лица было у Архимеда, когда он открыл новый физический закон?)))) К сожалению, во времена Архимеда фотоаппарат еще не был изобретен, поэтому это останется для нас тайной. Зато выражение лица Станислава в момент инстайта останется на всегда в память об этом дне и замечательной игре в ученого, которую мы с родителями для него организовали.
-                            </p>
-                        </div>
+        <div class="col-10 col-s-12">
+            <section id="tiles">
+                <div class="col-6 sr" id="tile1">
+                    <div class="sr_image">
+                        <a href="/gals/family.php"">
+                            <img src="/imgs/series/oksana_mega/2.jpg">
+                        </a>
+                    </div>
+                    <div class="sr_caption">
+                        Прогулка в Межигорье
                     </div>
                 </div>
-                <div class="seria">
-                    <div>
-                        <div class="img_part">
-                            <img src="/imgs/series/oksana_mega/1.jpg">
-                        </div>
-                        <div class="text_part">
-                            <p>Погожим летним днем мы отправились в Межигорье с прекрасной очень дружной и любящей семьей. И в нашей фото истории было все: и прогулка по красивым алеям (надо отметить, что все были в Межигорье впервые), и кормление уток, и мыльные пузыри у водопада, и веселая беготня маленькой принцессы среди цветущих клумб, катание на беговеле, вкусное поедание мороженного, семейный пикник, игра в догонялки, запускание самолетика и много много веселого семейного общения, счастливых улыбок, нежных объятий и еще чего то еле уловимого, что нельзя передать словами, но что я ощутила, находясь рядом с этой замечательной светлой и любящей семьей. Просматривая эти фото я тоже возвращаюсь в тот замечательный августовский день и снова ощущая теплые и радостные чувства, которые ощутила там, радуясь за них и вместе с ними.</p>
-                        </div>
+                <div class="col-6 sr" id="tile2">
+                    <div class="sr_image">
+                        <a href="#"">
+                            <img src="/imgs/series/stasik_sci/2.jpg">
+                        </a>
+                    </div>
+                    <div class="sr_caption">
+                        Стасик-ученый
                     </div>
                 </div>
-            </div>
-            <div class="col-1 col-s-0 col-m-0"><p></p></div>
-        </section>
-    </main>
+        </div>
+        <div class="col-1 col-s-0 col-m-0"><p></p></div>
+    </section>
+</main>
+<script src="/js/slide.js"></script>
 </body>
 </html>

@@ -15,11 +15,16 @@ class MainMenu{
 
         $this->logo_container =
             '<div class="logo_container">'.
-            '<img src="/imgs/Cool-Text.png" alt="PIG">
+            '<img src="/imgs/logo.png" alt="PIG">
             </div>';
 
         $this->nav_container =
-            ')">&nbsp;&nbsp;ПОРТФОЛИО&nbsp;&nbsp;</a>
+            '<div class=nav_container>  
+                <nav class="topnav">  
+                    <a class="nav-link" href="/">ГЛАВНАЯ</a>
+                    <p>/</p>
+                    <div class="dropdown" id="menu1">
+                        <a class="dropbtn nav-link" href="#" onclick="toogleMenu(\'menu1\')">&nbsp;&nbsp;ПОРТФОЛИО&nbsp;&nbsp;</a>
                         <div class="dropdown-content">
                             <a href="/gals/family.php">Семейная фотосессия</a>
                             <a href="/gals/children.php">Детская фотосессия</a>
@@ -36,7 +41,7 @@ class MainMenu{
                     <a class="nav-link" href="/contacts.php">ОБО МНЕ</a>
                 </nav>
              </div>';
-    } 
+    }
 
     function doit(){
 

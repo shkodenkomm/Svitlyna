@@ -1,26 +1,27 @@
-.seria{
-    margin: 0.5rem;
-    background-color: aliceblue;
+.sr_image>a>img{
+    max-height: 400px;
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-.seria>div{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    display: flex;
+.sr{
+    background-color: #160021;
+    padding: 2rem;
+    border-color: #85a99273;
+    border-width: 1px;
+    border-style: solid;
 }
 
-.img_part>img{
-    max-height: 250px;
-    width: auto;
-    margin-top: 0.5rem;
-}
-
-.text_part{
-    padding-top: 2rem;
-
-}
-.text_part>p{
+.sr_caption{
+    background-color: #fff5d4;
+    text-align: center;
+    padding: 0.75rem;
+    margin-top: 2rem;
     margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 16px;
 }
+
