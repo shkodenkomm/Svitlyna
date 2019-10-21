@@ -107,77 +107,77 @@
 
                     <!-- Full-width images with number and caption text -->
                     <div class="mySlides fade">
-                        <div class="numbertext">1 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/1.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">2 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/2.jpg" style="width:100%">
                         <div class="text"></div>
                       </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">3 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/3.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">4 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/4.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">5 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/5.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">6 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/6.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">7 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/7.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">8 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/8.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">9 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/9.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">10 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/10.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">11 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/11.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">12 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/12.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">13 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/13.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">13 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/13.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
                     <div class="mySlides fade">
-                        <div class="numbertext">14 / 14</div>
+                        <div class="numbertext"></div>
                         <img src="/imgs/main_slide/14.jpg" style="width:100%">
                         <div class="text"></div>
                     </div>
@@ -215,25 +215,51 @@
                             ДЕТСКАЯ ФОТОСЕССИЯ
                         </div>
                         <div class="tile_img col-12">
-                            <img src="/imgs/main_cats/IMGP8351_hq_hq.jpg">
+                            <a href="/gals/children.php" class="tile_img  col-12">
+                                <img src="/imgs/main_cats/IMGP8351_hq_hq.jpg">
+                            </a>
                         </div>
                     </div>
                     <div class="col-6" id="tile3">
                         <div class="tile_caption col-12">
-                            ПОРТРЕТНАЯ ФОТОСЕССИЯ
+                            ПЕРСОНАЛЬНАЯ ФОТОСЕССИЯ
                         </div>
                         <div class="tile_img col-12">
-                            <img src="/imgs/main_cats/IMGP6235_hq_crop_hq.jpg">
+                            <a href="/gals/personal.php" class="tile_img  col-12">
+                                <img src="/imgs/main_cats/IMGP6235_hq_crop_hq.jpg">
+                            </a>
                         </div>
                     </div>
                     <div class="col-6" id="tile4">
                         <div class="tile_caption col-12">
-                            ПРОГУЛКА С ЖИВОТНЫМИ
+                            ПРОГУЛКА С ЛОШАДЯМИ
                         </div>
                         <div class="tile_img col-12">
-                            <img src="/imgs/main_cats/IMGP3991_hq_hq.jpg">
+                            <a href="/gals/horses.php" class="tile_img  col-12">
+                                <img src="/imgs/main_cats/IMGP3991_hq_hq.jpg">
+                            </a>
                         </div>
-                    </div> 
+                    </div>
+                    <div class="col-6" id="tile5">
+                        <div class="tile_caption col-12">
+                            ТАИНСТВО КРЕЩЕНИЯ
+                        </div>
+                        <div class="tile_img col-12">
+                            <a href="/gals/crist.php" class="tile_img  col-12">
+                                <img src="/imgs/gals/crist/10_a.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6" id="tile6">
+                        <div class="tile_caption col-12">
+                            СЕРИИ
+                        </div>
+                        <div class="tile_img col-12">
+                            <a href="#" class="tile_img  col-12">
+                                <img src="/imgs/main_cats/Титул%20для%20серий.jpg">
+                            </a>
+                        </div>
+                    </div>
             </div>
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
         </section>

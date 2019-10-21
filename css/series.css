@@ -1,0 +1,26 @@
+.seria{
+    margin: 0.5rem;
+    background-color: aliceblue;
+}
+
+.seria>div{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.img_part>img{
+    max-height: 250px;
+    width: auto;
+    margin-top: 0.5rem;
+}
+
+.text_part{
+    padding-top: 2rem;
+
+}
+.text_part>p{
+    margin-left: 2rem;
+}
