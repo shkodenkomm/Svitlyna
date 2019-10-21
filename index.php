@@ -255,8 +255,8 @@
                             СЕРИИ
                         </div>
                         <div class="tile_img col-12">
-                            <a href="#" class="tile_img  col-12">
-                                <img src="/imgs/main_cats/Титул%20для%20серий.jpg">
+                            <a href="/series.php" class="tile_img  col-12">
+                                <img src="/imgs/main_cats/stitul.jpg">
                             </a>
                         </div>
                     </div>

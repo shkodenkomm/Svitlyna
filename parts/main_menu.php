@@ -15,7 +15,7 @@ class MainMenu{
 
         $this->logo_container =
             '<div class="logo_container">'.
-            '<img src="/imgs/Cool-Text.png" alt="PIG">
+            '<img src="/imgs/logo.png" alt="PIG">
             </div>';
 
         $this->nav_container = 

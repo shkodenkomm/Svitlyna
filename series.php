@@ -38,8 +38,10 @@
             <div class="col-10 col-s-12 " >
                 <div class="seria">
                     <div>
-                        <div class="img_part">
-                            <img src="/imgs/series/stasik_sci/preview/1.jpg">
+                        <div >
+                            <a href="/gals/series/stasik_sci.php" class="img_part">
+                                <img src="/imgs/series/stasik_sci/preview/1_hq.jpg">
+                            </a>
                         </div>
                         <div class="text_part">
                             <p>Что может быть увлекательнее, чем познавать окружающий мир? Представляю вашему вниманию историю про настоящего ученого Станислава Алексеевича. Очень интересно наблюдать, как маленькие дети пытаются копировать взрослых! Нашему герою Станиславу всего 4,5 года и он уже чувствует себя настоящим учёным как его родители!
