@@ -54,7 +54,7 @@
                 <div class="seria col-6">
                     <div>
                         <div class="img_part">
-                            <a href="/gals/series/stasik_sci.php" >
+                            <a href="/gals/series/oksana_mega.php" >
                                 <img src="/imgs/series/oksana_mega/1.jpg">
                             </a>
                         </div>
