@@ -15,7 +15,7 @@ class MainMenu{
 
         $this->logo_container =
             '<div class="logo_container">'.
-            '<img src="/imgs/Cool-Text.png" alt="PIG">
+            '<img src="/imgs/logo.png" alt="PIG">
             </div>';
 
         $this->nav_container = 
@@ -33,6 +33,8 @@ class MainMenu{
                             <a href="/gals/crist.php">Таинство крещения</a>
                         </div>
                     </div>
+                    <p>/</p>
+                    <a class="nav-link" href="/services.php">УСЛУГИ</a>
                     <p>/</p>
                     <a class="nav-link" href="/series.php">СЕРИИ</a>
                     <p>/</p>
