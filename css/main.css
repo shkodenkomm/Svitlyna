@@ -24,6 +24,7 @@
   @media only screen and (max-width: 600px) {
     /* For mobiles 0: */
     .col-m-0 {width: 0}
+    .col-m-6 {width: 50%}
     .logo_container>img{
       height:auto;
       width: 300px;
