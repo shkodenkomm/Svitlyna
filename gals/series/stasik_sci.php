@@ -56,9 +56,8 @@
           <img class="preview" src="/imgs/series/stasik_sci/preview/6_hq.jpg">
           <img class="preview" src="/imgs/series/stasik_sci/preview/11_hq.jpg">
           <img class="preview" src="/imgs/series/stasik_sci/preview/15_hq.jpg">
-
         </div>
-          <div class="column-v4" id="f2">
+        <div class="column-v4" id="f2">
               <img class="preview" src="/imgs/series/stasik_sci/preview/2_hq.jpg">
               <img class="preview" src="/imgs/series/stasik_sci/preview/7_hq.jpg">
               <img class="preview" src="/imgs/series/stasik_sci/preview/10_hq.jpg">

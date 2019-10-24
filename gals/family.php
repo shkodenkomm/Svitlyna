@@ -131,7 +131,7 @@
           <img class="preview" src="/imgs/gals/family/preview/64_о.jpg">
           <img class="preview" src="/imgs/gals/family/preview/68_о.jpg">
           <img class="preview" src="/imgs/gals/family/preview/70_f.jpg">
-        </div> 
+        </div>
       </div>
 
       <div class="row_gal tablet" >
@@ -175,7 +175,7 @@
           <img class="preview" src="/imgs/gals/family/preview/66_о.jpg">
           <img class="preview" src="/imgs/gals/family/preview/72_s.jpg">
           <img class="preview" src="/imgs/gals/family/preview/74_s.jpg">
-          
+
         </div>
         <div class="column-v2" id="t2">
           <img class="preview" src="/imgs/gals/family/preview/3_б.jpg">
@@ -217,7 +217,7 @@
         </div>
 
       <div class="row_gal mobile" >
-        <div class="column-v" id="m1" > 
+        <div class="column-v" id="m1" >
           <img class="preview" src="/imgs/gals/family/preview/1_б.jpg" alt="">
           <img class="preview" src="/imgs/gals/family/preview/2_б.jpg" alt="">
           <img class="preview" src="/imgs/gals/family/preview/3_б.jpg" alt="">
