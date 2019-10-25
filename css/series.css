@@ -1,14 +1,23 @@
 .seria{
     padding-left: 0.2rem;
     padding-right: 0.2rem;
-    padding-top: 0.2rem;
-    padding-bottom: 1rem;
-
+    padding-bottom: 0.5rem;
 
 }
 
-.seria>div{
+.seria_caption{
+    font-family: gabriola;
+    font-style: italic;
+    background-image: linear-gradient(to bottom, rgba(252,237,182,0.3), rgba(252,237,182,1));
+    text-align: center;
+    padding: 0.75rem;
+    font-size: x-large;
+    color: #1a1248;
+}
 
+.seria_caption a{
+    text-decoration: none;
+    color: darkblue;
 }
 
 .img_part{
@@ -24,7 +33,6 @@
 }
 
 .text_part{
-    padding-top: 0.5rem;
     overflow: auto;
     display: none;
 }

@@ -15,7 +15,7 @@
       echo $config->gtm["gtm_head"];
     ?>
 
-    <title>Разные фото</title>
+    <title>Серии</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,9 +43,9 @@
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
             <div class="col-8 col-s-12">
                 <section id="tiles">
-                    <div class="col-6" id="tile1">
-                        <div class="tile_caption col-12">
-                            Стасик-ученый
+                    <div class="seria col-6" id="tile1">
+                        <div class="seria_caption col-12">
+                            <a href="gals/series/stasik_sci.php">Стасик-ученый</a>
                         </div>
                         <div >
                             <a href="/gals/series/stasik_sci.php" class="tile_img  col-12">
@@ -53,9 +53,9 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-6" id="tile2">
-                        <div class="tile_caption col-12">
-                            Семейная прогулка в Межигорье
+                    <div class="seria col-6" id="tile2">
+                        <div class="seria_caption col-12">
+                            <a href="gals/series/oksana_mega.php">Семейная прогулка в Межигорье</a>
                         </div>
                         <div class="tile_img col-12">
                             <a href="/gals/series/oksana_mega.php" class="tile_img  col-12">

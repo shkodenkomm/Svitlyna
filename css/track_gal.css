@@ -87,7 +87,7 @@
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 2rem; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -101,14 +101,17 @@
 .modal-content {
   margin: auto;
   display: block;
-  width: 90%;
-  max-width: 900px;
+  max-height: 95vh;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
-  display: block;
+  display: none;
   width: 80%;
   max-width: 700px;
   text-align: center;
@@ -119,7 +122,7 @@
 
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption { 
-  animation-name: zoom;
+  animation-name: fadeIn;
   animation-duration: 0.6s;
 }
 
@@ -131,7 +134,7 @@
 /* The Close Button */
 .close {
   position: absolute;
-  top: 15px;
+  top: 1rem;
   right: 35px;
   color: #f1f1f1;
   font-size: 40px;

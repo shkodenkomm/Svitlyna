@@ -76,8 +76,13 @@
       src: url(/css/mistral.ttf);
     }
 
+   @font-face {
+     font-family: gabriola;
+     src: url(/css/gabriola.ttf);
+   }
+
     main{
-      margin-top: 0.3rem;
+      margin-top: 0.1rem;
     }
 
     nav p, .nav-link, .tile_caption{
