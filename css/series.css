@@ -1,8 +1,9 @@
-.seria{
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
+.seria {
     padding-bottom: 0.5rem;
+}
 
+#tile1{
+    padding-right: 0.2rem;
 }
 
 .seria_caption{
