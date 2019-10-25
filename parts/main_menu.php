@@ -29,12 +29,10 @@ class MainMenu{
                             <a href="/gals/family.php">Семейная фотосессия</a>
                             <a href="/gals/children.php">Детская фотосессия</a>
                             <a href="/gals/personal.php">Персональная фотосессия</a>
-                            <a href="/gals/horses.php">Фотосессия с лошадями</a>
+                            <a href="/gals/photo_walk_with_horses.php">Фотосессия с лошадями</a>
                             <a href="/gals/crist.php">Таинство крещения</a>
                         </div>
                     </div>
-                    <p>/</p>
-                    <a class="nav-link" href="/services.php">УСЛУГИ</a>
                     <p>/</p>
                     <a class="nav-link" href="/series.php">СЕРИИ</a>
                     <p>/</p>

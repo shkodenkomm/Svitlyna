@@ -1,29 +1,28 @@
-<!DOCTYPE html>
-<?php 
+<?php
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
     include "../parts/main_menu.php";
     include "../parts/config.php";
 ?>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <?php  echo $config->gtm["gan_head"];
-         echo $config->gtm["gtm_head"];
-  ?> 
-    
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Семейная фотосессия</title>
+    <title>Семейная фотосессия</title>
 
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/track_gal.css">
-  <script src="/js/utils.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <?php include "../parts/head_links.php";
+          echo $config->gtm["gan_head"];
+          echo $config->gtm["gtm_head"];
+    ?>
+    <link rel="stylesheet" href="/css/track_gal.css">
 </head>
 <body>
    <?php  echo $config->gtm["gtm_body"]; ?> 
    <header class ="row">
-        <div class="col-2 col-s-0 col-m-0" ><p></p></div>
-        <div class="col-8 col-s-12">
+        <div class="col-1 col-s-0 col-m-0" ><p></p></div>
+        <div class="col-10 col-s-12">
             <div class="main_logo">
                 <?php 
                     $menu= new MainMenu();
@@ -31,11 +30,11 @@
                 ?>
             </div>
          </div>
-        <div class="col-2 col-s-0 col-m-0"><p></p></div>
+        <div class="col-1 col-s-0 col-m-0"><p></p></div>
     </header>
   <section class="row root_img">
-    <div class="col-2 col-s-0 col-m-0" ><p></p></div>
-    <div class="col-8 col-s-12" >
+    <div class="col-1 col-s-0 col-m-0" ><p></p></div>
+    <div class="col-10 col-s-12" >
 
       <!-- The Modal -->
       <div id="myModal" class="modal">
@@ -52,165 +51,165 @@
 
       <div class="row_gal desctop" >
         <div class="column-v4" id="f1">
-          <img class="preview" src="/imgs/gals/family/preview/1_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/5_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/9_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/13_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/17_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/21_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/25_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/29_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/33_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/37_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/41_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/45_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/35_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/49_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/53_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/57_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/61_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/65_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/69_о.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/1_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/5_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/9_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/13_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/17_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/21_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/25_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/29_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/33_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/37_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/41_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/45_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/35_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/49.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/53.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/57.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/61.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/65.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/69.jpg">
           <img class="preview" src="/imgs/gals/family/preview/72_s.jpg">
         </div>
         <div class="column-v4" id="f2">
-          <img class="preview" src="/imgs/gals/family/preview/2_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/6_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/10_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/14_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/18_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/22_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/26_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/47_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/30_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/34_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/46_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/36_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/40_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/51_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/50_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/58_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/62_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/66_о.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/2_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/6_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/10_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/14_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/18_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/22_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/26_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/47_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/30_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/34_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/46_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/36_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/40_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/51.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/50.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/58.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/62.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/66.jpg">
           <img class="preview" src="/imgs/gals/family/preview/73_s.jpg">
         </div>
         <div class="column-v4" id="f3">
-          <img class="preview" src="/imgs/gals/family/preview/3_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/7_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/11_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/23_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/27_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/43_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/39_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/38_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/42_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/44_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/32_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/55_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/54_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/59_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/63_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/67_о.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/3_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/7_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/11_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/23_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/27_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/43_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/39_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/38_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/42_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/44_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/32_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/55.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/54.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/59.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/63.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/67.jpg">
           <img class="preview" src="/imgs/gals/family/preview/71_f.jpg">
           <img class="preview" src="/imgs/gals/family/preview/74_s.jpg">
         </div>
         <div class="column-v4" id= "f4">
-          <img class="preview" src="/imgs/gals/family/preview/4_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/8_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/12_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/15_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/16_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/19_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/24_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/20_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/48_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/31_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/28_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/52_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/56_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/60_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/64_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/68_о.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/4_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/8_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/12_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/15_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/16_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/19_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/24_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/20_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/48_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/31_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/28_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/52.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/56.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/60.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/64.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/68.jpg">
           <img class="preview" src="/imgs/gals/family/preview/70_f.jpg">
         </div> 
       </div>
 
       <div class="row_gal tablet" >
         <div class="column-v2" id="t1">
-          <img class="preview" src="/imgs/gals/family/preview/1_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/5_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/2_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/6_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/9_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/13_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/17_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/10_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/14_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/18_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/22_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/21_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/25_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/26_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/47_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/46_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/40_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/36_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/30_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/34_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/29_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/33_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/37_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/41_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/45_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/35_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/49_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/53_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/51_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/50_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/57_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/61_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/65_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/69_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/58_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/62_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/66_о.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/1_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/5_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/2_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/6_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/9_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/13_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/17_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/10_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/14_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/18_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/22_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/21_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/25_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/26_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/47_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/46_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/40_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/36_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/30_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/34_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/29_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/33_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/37_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/41_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/45_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/35_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/49.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/53.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/51.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/50.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/57.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/61.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/65.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/69.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/58.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/62.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/66.jpg">
           <img class="preview" src="/imgs/gals/family/preview/72_s.jpg">
           <img class="preview" src="/imgs/gals/family/preview/74_s.jpg">
           
         </div>
         <div class="column-v2" id="t2">
-          <img class="preview" src="/imgs/gals/family/preview/3_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/7_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/4_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/8_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/11_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/12_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/15_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/16_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/19_б.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/24_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/20_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/23_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/27_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/48_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/31_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/28_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/43_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/39_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/38_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/42_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/44_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/32_ю.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/52_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/56_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/55_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/54_с.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/59_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/63_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/67_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/60_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/64_о.jpg">
-          <img class="preview" src="/imgs/gals/family/preview/68_о.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/3_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/7_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/4_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/8_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/11_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/12_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/15_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/16_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/19_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/24_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/20_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/23_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/27_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/48_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/31_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/28_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/43_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/39_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/38_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/42_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/44_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/32_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/52.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/56.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/55.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/54.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/59.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/63.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/67.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/60.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/64.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/68.jpg">
           <img class="preview" src="/imgs/gals/family/preview/70_f.jpg">
           <img class="preview" src="/imgs/gals/family/preview/71_f.jpg">
           <img class="preview" src="/imgs/gals/family/preview/73_s.jpg">
@@ -219,84 +218,84 @@
 
       <div class="row_gal mobile" >
         <div class="column-v" id="m1" > 
-          <img class="preview" src="/imgs/gals/family/preview/1_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/2_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/3_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/4_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/5_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/6_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/7_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/8_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/9_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/10_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/11_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/12_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/13_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/14_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/15_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/16_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/17_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/18_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/19_б.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/20_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/21_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/22_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/23_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/24_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/25_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/26_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/27_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/28_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/29_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/30_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/31_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/32_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/33_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/34_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/35_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/36_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/37_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/38_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/39_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/40_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/41_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/42_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/43_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/44_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/45_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/46_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/47_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/48_ю.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/49_с.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/50_с.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/51_с.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/52_с.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/53_с.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/54_с.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/55_с.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/56_с.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/57_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/58_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/59_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/60_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/61_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/62_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/63_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/64_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/65_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/66_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/67_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/68_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/69_о.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/70_f.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/71_f.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/72_s.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/73_s.jpg" alt="">
-          <img class="preview" src="/imgs/gals/family/preview/74_s.jpg" alt="">
+          <img class="preview" src="/imgs/gals/family/preview/1_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/2_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/3_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/4_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/5_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/6_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/7_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/8_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/9_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/10_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/11_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/12_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/13_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/14_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/15_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/16_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/17_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/18_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/19_b.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/20_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/21_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/22_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/23_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/24_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/25_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/26_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/27_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/28_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/29_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/30_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/31_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/32_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/33_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/34_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/35_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/36_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/37_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/38_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/39_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/40_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/41_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/42_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/43_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/44_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/45_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/46_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/47_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/48_u.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/49.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/50.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/51.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/52.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/53.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/54.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/55.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/56.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/57.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/58.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/59.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/60.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/61.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/62.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/63.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/64.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/65.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/66.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/67.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/68.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/69.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/70_f.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/71_f.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/72_s.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/73_s.jpg">
+          <img class="preview" src="/imgs/gals/family/preview/74_s.jpg">
         </div>
       </div>
     </div>  
-    <div class="col-2 col-s-0 col-m-0" ><p></p></div>  
+    <div class="col-1 col-s-0 col-m-0" ><p></p></div>
   </section>
   <script src="/js/img_modal.js"></script>
 </body>

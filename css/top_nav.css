@@ -4,7 +4,7 @@
     display: flex;
     justify-content: flex-end;
     text-align: center;
-    padding-top: 64px;
+    padding-right: 20px;
     flex-wrap: wrap;
     /*position: absolute;
     top: 100%;
@@ -26,17 +26,43 @@
 }
 
 
+#top_mail{
+    display: inline;
+    position: fixed;
+    top: 68px;
+    padding:1rem;
+}
+
+
+
+
 /*убрать паддинг в главном меню*/
-@media only screen and (max-width: 1533px) {
-   .topnav{
-        padding-top: 0;
+@media only screen and (min-width: 500px) {
+    .topnav{
+        padding-right: 20px;
+    }
+    logo_container>img {
+        height: 96px;
+    }
+}
+
+/*убрать разделители меню*/
+@media only screen and (max-width: 500px) {
+    .topnav{
+        padding-right: 5px;
+    }
+    .topnav>a {
+        min-width: 60px;
+    }
+    logo_container>img {
+        height: 80px;
     }
 }
 
 
 /*убрать разделители меню*/
-@media only screen and (max-width: 368px) {
-   .topnav p{
+@media only screen and (max-width: 350px) {
+    .topnav p{
         display: none;
     }
 }

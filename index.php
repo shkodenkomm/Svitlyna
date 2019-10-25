@@ -1,20 +1,16 @@
-<?php 
+<?php
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
-
     include "parts/main_menu.php";
+    include "parts/config.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145454799-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    
-    gtag('config', 'UA-145454799-1');
-  </script>
+  <?php include "parts/head_links.php";
+    echo $config->gtm["gan_head"];
+    echo $config->gtm["gtm_head"];
+  ?>
   <title>Фото</title>
 
   <meta charset="utf-8">
@@ -235,7 +231,7 @@
                             ПРОГУЛКА С ЛОШАДЯМИ
                         </div>
                         <div class="tile_img col-12">
-                            <a href="/gals/horses.php" class="tile_img  col-12">
+                            <a href="/gals/photo_walk_with_horses.php" class="tile_img  col-12">
                                 <img src="/imgs/main_cats/IMGP3991_hq_hq.jpg">
                             </a>
                         </div>
