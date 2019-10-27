@@ -15,6 +15,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Детский семейный фотограф. Киев">
 
   <link rel="stylesheet" href="/css/slide_show_main.css">
   <link rel="stylesheet" href="/css/main.css">
@@ -35,19 +36,6 @@
         <div class="col-2 col-s-0 col-m-0"><p></p></div>
     </header>
     <main>
-        <section class="row off">
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
-            <!--  info -->
-            <div class="col-8 col-s-12" >
-                <article id="main_inforemer" style="background-color: white;white-space: pre-line;">
-                    <p style="margin: 0">Сайт в разработке. В ближайшее время планируется страница контактов. Вопросы и предложения можно писать сюда: <b><i>mail@svitlyna.com.ua</i></b>
-                    </p>
-                    
-                </article>                            
-            </div>
-            <div class="col-2 col-s-0 col-m-0"><p></p></div>
-        </section >
-
         <section class="row">
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
             <!-- карусель -->

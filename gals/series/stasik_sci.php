@@ -7,16 +7,14 @@
 ?>
 <html lang="ru">
 <head>
-    <?php
-        include "../../parts/head_links.php";
-        echo $config->gtm["gan_head"];
-        echo $config->gtm["gtm_head"];
-    ?>
-    
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Стасик ученый</title>
-
+    <?php
+    include "../../parts/head_links.php";
+    echo $config->gtm["gan_head"];
+    echo $config->gtm["gtm_head"];
+    ?>
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/track_gal.css">
   <script src="/js/utils.js"></script>
