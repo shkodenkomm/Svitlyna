@@ -45,6 +45,16 @@
                 <section id="tiles">
                     <div class="seria col-6" id="tile1">
                         <div class="seria_caption col-12">
+                            <a href="gals/series/natasha_sasha.php">Наташа и Саша в ожидании чуда</a>
+                        </div>
+                        <div class="tile_img col-12">
+                            <a href="/gals/series/natasha_sasha.php" class="tile_img  col-12">
+                                <img src="/imgs/series/natasha_sasha/Natasha_expecting_of_miracle.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="seria col-6" id="tile1">
+                        <div class="seria_caption col-12">
                             <a href="gals/series/stasik_sci.php">Стасик-ученый</a>
                         </div>
                         <div >
@@ -53,13 +63,13 @@
                             </a>
                         </div>
                     </div>
-                    <div class="seria col-6" id="tile2">
+                    <div class="seria col-6" id="tile3">
                         <div class="seria_caption col-12">
                             <a href="gals/series/oksana_mega.php">Семейная прогулка в Межигорье</a>
                         </div>
                         <div class="tile_img col-12">
                             <a href="/gals/series/oksana_mega.php" class="tile_img  col-12">
-                                <img src="/imgs/series/oksana_mega/OksanaJam_Megigor.jpg">
+                                <img src="/imgs/series/oksana_mega/OksanaJam_Mejigore.jpg">
                             </a>
                         </div>
                     </div>

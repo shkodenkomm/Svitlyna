@@ -7,11 +7,9 @@
 ?>
 <html lang="ru">
 <head>
-    <?php
-        include "../../parts/head_links.php";
-        echo $config->gtm["gan_head"];
-        echo $config->gtm["gtm_head"];
-    ?>
+  <?php  echo $config->gtm["gan_head"];
+         echo $config->gtm["gtm_head"];
+  ?> 
     
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">

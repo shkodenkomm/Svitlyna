@@ -18,7 +18,7 @@ class MainMenu{
             '<img src="/imgs/logo.png" alt="PIG">
             </div>';
 
-        $this->nav_container = 
+        $this->nav_container =
              '<div class=nav_container>  
                 <nav class="topnav">  
                     <a class="nav-link" href="/">ГЛАВНАЯ</a>
@@ -41,7 +41,7 @@ class MainMenu{
                     <a class="nav-link" href="/contacts.php">ОБО МНЕ</a>
                 </nav>
              </div>';
-    } 
+    }
 
     function doit(){
 
