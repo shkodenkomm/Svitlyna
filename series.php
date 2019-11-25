@@ -43,6 +43,36 @@
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
             <div class="col-8 col-s-12">
                 <section id="tiles">
+                    <div class="seria col-6" id="tile4">
+                        <div class="seria_caption col-12">
+                            <a href="gals/series/ny_katya.php">Новогодняя сказка</a>
+                        </div>
+                        <div class="tile_img col-12">
+                            <a href="/gals/series/ny_katya.php" class="tile_img  col-12">
+                                <img src="/imgs/series/ny_katya/NY_KatiaAleshaStasik.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="seria col-6" id="tile5">
+                        <div class="seria_caption col-12">
+                            <a href="gals/series/ny_yulia_nelia.php">А снег идет, а снег идет!</a>
+                        </div>
+                        <div class="tile_img col-12">
+                            <a href="/gals/series/ny_yulia_nelia.php" class="tile_img  col-12">
+                                <img src="/imgs/series/ny_yulia_nelia/ti3.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="seria col-6" id="tile6">
+                        <div class="seria_caption col-12">
+                            <a href="gals/series/slavutych_katya.php">Однажды туманным утром</a>
+                        </div>
+                        <div class="tile_img col-12">
+                            <a href="/gals/series/slavutych_katya.php" class="tile_img  col-12">
+                                <img src="/imgs/series/slavutych_katya/ti3.jpg">
+                            </a>
+                        </div>
+                    </div>
                     <div class="seria col-6" id="tile1">
                         <div class="seria_caption col-12">
                             <a href="gals/series/natasha_sasha.php">Наташа и Саша в ожидании чуда</a>
@@ -53,7 +83,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="seria col-6" id="tile1">
+                    <div class="seria col-6" id="tile2">
                         <div class="seria_caption col-12">
                             <a href="gals/series/stasik_sci.php">Стасик-ученый</a>
                         </div>
@@ -73,6 +103,7 @@
                             </a>
                         </div>
                     </div>
+
                  </section>
             </div>
             <div class="col-2 col-s-0 col-m-0"><p></p></div>

@@ -188,7 +188,7 @@
                             СЕМЕЙНАЯ ФОТОСЕССИЯ И ЛАВСТОРИ
                         </div>
                         <div >
-                            <a href="/gals/family-new.php" class="tile_img  col-12">
+                            <a href="/gals/family.php" class="tile_img  col-12">
                                 <img src="/imgs/main_cats/IMGP7935_hq_hq.jpg">
                             </a>
 

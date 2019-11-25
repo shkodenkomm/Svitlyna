@@ -2,9 +2,10 @@
     padding-bottom: 0.5rem;
 }
 
-#tile1{
+#tile4, #tile2, #tile6  {
     padding-right: 0.2rem;
 }
+
 
 .seria_caption{
     font-family: gabriola;

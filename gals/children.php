@@ -17,7 +17,7 @@
             echo $config->gtm["gtm_head"];
     ?>
 
-  <link rel="stylesheet" href="/css/children_gal.css">
+  <link rel="stylesheet" href="/css/track_gal.css">
 
 
 </head>
