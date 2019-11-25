@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <?php
+  <?php include "parts/head_links.php";
     echo $config->gtm["gan_head"];
     echo $config->gtm["gtm_head"];
   ?>
