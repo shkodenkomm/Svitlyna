@@ -2,6 +2,7 @@
 <?php 
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
+    include "../parts/head_links.php";
     include "../parts/main_menu.php";
     include "../parts/config.php";
 ?>
@@ -10,10 +11,7 @@
 
     <title>Портреты</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <?php include "../parts/head_links.php";
+    <?php
           echo $config->gtm["gan_head"];
           echo $config->gtm["gtm_head"];
     ?>

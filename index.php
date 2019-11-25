@@ -1,25 +1,23 @@
 <?php
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
+
+    include "parts/head_links.php";
     include "parts/main_menu.php";
     include "parts/config.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <?php include "parts/head_links.php";
+  <?php
     echo $config->gtm["gan_head"];
     echo $config->gtm["gtm_head"];
   ?>
   <title>Фото</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Детский семейный фотограф. Киев">
-
   <link rel="stylesheet" href="/css/slide_show_main.css">
-  <link rel="stylesheet" href="/css/main.css">
-  <script src="/js/utils.js"></script>
+
 </head>
 
 <body>

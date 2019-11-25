@@ -5,18 +5,17 @@
         error_reporting(E_ALL);
         ini_set('display_errors', 1);
 
+        include "head_links.php";
         $menu = new MainMenu();
+
         echo $config->gtm["gan_head"];
         echo $config->gtm["gtm_head"];
     ?>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title><?php echo $gl->pageTitle ?></title>
 
-    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/track_gal.css">
-    <script src="/js/utils.js"></script>
 </head>
 <body>
 <?php  echo $config->gtm["gtm_body"]; ?>
