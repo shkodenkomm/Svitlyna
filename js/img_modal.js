@@ -1,13 +1,21 @@
 var modal = document.getElementById("myModal");
-console.log("img_moda.js STRT");
 
 var imgsList = document.querySelectorAll(".row_gal.desctop img");
 var srcList=[];
+
+var currIndex=0;
+
+tmpS = imgsList[currIndex].getAttribute("src");
+iSlash = tmpS.lastIndexOf("/")+1;
+var imgPath = tmpS.substr(0, iSlash);
+
 for (var i = 0; i < imgsList.length; i++) {
     tmpS = imgsList[i].getAttribute("src");
-    iSlash = tmpS.lastIndexOf("/")+1;
     srcList.push(tmpS.substr(iSlash));
 }
+
+imgsList = null;
+
 srcList.sort(function(_a, _b){
     iA = _a.indexOf("_");
     if(iA == -1) iA = _a.indexOf(".");
@@ -22,35 +30,34 @@ srcList.sort(function(_a, _b){
 
     return a - b
 });
-console.log(srcList);
 
+function SrcToIndex(_src){
+    var index = 0;
+    tmpS = _src.substr(_src.lastIndexOf("/")+1);
+    for (var i = 0; i < srcList.length; i++) {
+        if(srcList[i] == tmpS) {
+            index = i;
+            break;
+        }
+    }
+    return index;
+}
 
+function IndexToSrc(_index){
+    if(srcList.length<1) console.error("no set src List");
+    var src= imgPath+srcList[_index];
+    return src;
+}
 
+function plusSlides(slide){
+    currIndex+=slide;
 
+    if(currIndex < 0) currIndex = srcList.length-1;
+    if(currIndex >= srcList.length) currIndex = 0;
+    //console.log("set currIndex "+currIndex);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    previewClick(IndexToSrc(currIndex));
+}
 
 function previewClick(_src){
 
@@ -67,11 +74,7 @@ function previewClick(_src){
     fbq('track', 'ViewContent', { content_ids:  fullSrc.replace("https://svitlyna.in.ua/imgs","") });
 
     modalImg.src = fullSrc;
-
-
-
     captionText.innerHTML = img.alt;
-
 
     var span = document.getElementsByClassName("close")[0];
 
@@ -87,7 +90,9 @@ addEventListener("click",
     function(event){
         //console.log("clicked "+event.target);
         if (event.target.tagName=="IMG") {
-            previewClick(event.target.getAttribute("src"))
+            currIndex = SrcToIndex(event.target.getAttribute("src"));
+            console.log("set currIndex "+currIndex);
+            previewClick(event.target.getAttribute("src"));
         }
     }, false
 )
