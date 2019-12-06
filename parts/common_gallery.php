@@ -2,16 +2,14 @@
 <html>
 <head>
     <?php
-        error_reporting(E_ALL);
-        ini_set('display_errors', 1);
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
 
-        include "head_links.php";
-        $menu = new MainMenu();
-
-        echo $config->gtm["gan_head"];
-        echo $config->gtm["gtm_head"];
+    include "head_links.php";
+    $menu = new MainMenu();
+    echo $config->gtm["gan_head"];
+    echo $config->gtm["gtm_head"];
     ?>
-
 
     <title><?php echo $gl->pageTitle ?></title>
 
