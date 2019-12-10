@@ -20,11 +20,11 @@
         </div>
 
         <?php
-            foreach ($kg->imgFiles as $f){
+            for($i = 0; $i<count($kg->imgFiles)-1;++$i){
             echo  '
                 <div class="mySlides fade">
                     <div class="numbertext"></div>
-                    <img src="'.$kg->imgPath.$f.'" style="width:100%">
+                    <img src="'.$kg->imgPath.$kg->imgFiles[$i].'" style="width:100%">
                     <div class="text"></div>
                 </div>
                 ';

@@ -13,9 +13,9 @@
     echo $config->gtm["gan_head"];
     echo $config->gtm["gtm_head"];
   ?>
-  <title>Фото</title>
+    <title>Cемейный и детский фотограф</title>
+    <meta name="description" content="Доступные цены на фотосессию в фотостудии и на выезде. Детская, семейная, персональная, фотосессия беременности, Love Story, таинства венчания и крещения, репортажная сьемка. Услуги: фотосьемка, фотокнига, подарочный сертификат, помощь с созданием образа">
 
-  <meta name="description" content="Детский семейный фотограф. Киев">
   <link rel="stylesheet" href="/css/slide_show_main.css">
 
 </head>
