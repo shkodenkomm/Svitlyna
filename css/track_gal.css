@@ -128,8 +128,7 @@
 
 /* Next & previous buttons */
 .prev, .next {
-  z-index: 2; /* Sit on top */
-  margin-top: 5rem;
+  z-index:5; /* Sit on top */
   display: flex;
   cursor: pointer;
   position: absolute;
@@ -137,7 +136,7 @@
   width: auto;
   height: 100%;
   padding: 16px;
-  color: grey;
+  color: #0e0036;
   font-weight: bold;
   font-size: 24px;
   transition: 0.1s ease;
@@ -168,14 +167,14 @@
 
 /* The Close Button */
 .close {
+  z-index: 1;
   position: absolute;
   top: 1rem;
-  right: 35px;
+  right: 50%;
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
-  z-index: 1
 }
 
 .close:hover,

@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    <?php  include "parts/fbMsgPlugin.php"   ?>
     <header class ="row">
         <div class="col-2 col-s-0 col-m-0" ><p></p></div>
         <div class="col-8 col-s-12">

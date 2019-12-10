@@ -37,17 +37,22 @@
     <div class="col-10 col-s-12" >
 
       <!-- The Modal -->
-      <div id="myModal" class="modal">
+        <div id="myModal" class="modal">
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
 
-        <!-- The Close Button -->
-        <span class="close">&times;</span>
-
-        <!-- Modal Content (The Image) -->
-        <img class="modal-content" id="img01">
-
-        <!-- Modal Caption (Image Text) -->
-        <div id="caption"></div>
-      </div>
+            <!-- Next and previous buttons -->
+            <div class="arrow prev" onclick="plusSlides(-1)">
+                <a>&#10094;</a>
+            </div>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+            <div class="arrow next" onclick="plusSlides(1)">
+                <a>&#10095;</a>
+            </div>
+        </div>
 
       <div class="row_gal desctop" >
         <div class="column-v4" id="f1">
