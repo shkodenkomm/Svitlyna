@@ -8,23 +8,26 @@
             <div class ="dot-container">
 
                 <?php
-                    for($i = 0; $i<count($kg->imgFiles)-1;++$i)
-                    echo '
-                        <span class="dot" onclick="currentSlide('.($i+1).')">
-                            <img src="'.$kg->imgPath.$kg->imgFiles[$i].'" >
+                    for($i = 0; $i<count($kg->imgFiles);++$i) {
+                        $n = ($i+ 1) . '.jpg';
+                        echo '
+                        <span class="dot" onclick="currentSlide(' . ($i + 1) . ')">
+                            <img src="' . $kg->imgPath . $n . '" >
                         </span>
                         ';
+                    }
                 ?>
 
             </div>
         </div>
 
         <?php
-            for($i = 0; $i<count($kg->imgFiles)-1;++$i){
+            for($i = 0; $i<count($kg->imgFiles);++$i){
+                $n = ($i+1) . '.jpg';
             echo  '
                 <div class="mySlides fade">
                     <div class="numbertext"></div>
-                    <img src="'.$kg->imgPath.$kg->imgFiles[$i].'" style="width:100%">
+                    <img src="'.$kg->imgPath.$n.'" style="width:100%">
                     <div class="text"></div>
                 </div>
                 ';
