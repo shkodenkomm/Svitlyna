@@ -76,7 +76,9 @@
             <img class="preview" src="/imgs/gals/personal/preview/51_e_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/57_e_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/61_f_hq.jpg">
-
+            <img class="preview" src="/imgs/gals/personal/preview/68_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/72_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/75_g.jpg">
         </div>
           <div class="column-v4" id="f2">
             <img class="preview" src="/imgs/gals/personal/preview/2_a_hq.jpg">
@@ -99,6 +101,8 @@
             <img class="preview" src="/imgs/gals/personal/preview/52_e_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/62_f_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/65_f_hq.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/69_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/73_g.jpg">
         </div>
           <div class="column-v4" id="f3">
             <img class="preview" src="/imgs/gals/personal/preview/3_a_hq.jpg">
@@ -118,6 +122,8 @@
             <img class="preview" src="/imgs/gals/personal/preview/55_e_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/59_e_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/63_f_hq.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/70_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/74_g.jpg">
 
         </div>
         <div class="column-v4" id="f4">
@@ -137,7 +143,7 @@
             <img class="preview" src="/imgs/gals/personal/preview/60_e_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/64_f_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/66_f_hq.jpg">
-
+            <img class="preview" src="/imgs/gals/personal/preview/71_g.jpg">
 
 
         </div>
@@ -179,6 +185,10 @@
             <img class="preview" src="/imgs/gals/personal/preview/61_f_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/64_f_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/65_f_hq.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/68_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/70_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/72_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/74_g.jpg">
         </div>
         <div class="column-v2" id="t2">
             <img class="preview" src="/imgs/gals/personal/preview/2_a_hq.jpg">
@@ -220,6 +230,10 @@
             <img class="preview" src="/imgs/gals/personal/preview/62_f_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/63_f_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/66_f_hq.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/69_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/71_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/73_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/75_g.jpg">
 
         </div>
       </div>
@@ -298,6 +312,14 @@
             <img class="preview" src="/imgs/gals/personal/preview/64_f_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/65_f_hq.jpg">
             <img class="preview" src="/imgs/gals/personal/preview/66_f_hq.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/68_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/69_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/70_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/71_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/72_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/73_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/74_g.jpg">
+            <img class="preview" src="/imgs/gals/personal/preview/75_g.jpg">
         </div>
       </div>
     </div>  

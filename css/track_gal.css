@@ -184,7 +184,7 @@
   cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
+/* 100% Image Width on Smaller Scre ens */
 @media only screen and (max-width: 600px){
   .modal-content {
     width: 100%;

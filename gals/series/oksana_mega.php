@@ -7,17 +7,15 @@
 ?>
 <html lang="ru">
 <head>
-  <?php  echo $config->gtm["gan_head"];
+  <?php  include "../../parts/head_links.php";
+         echo $config->gtm["gan_head"];
          echo $config->gtm["gtm_head"];
   ?> 
-    
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Оксана в Межигорье</title>
 
-  <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/track_gal.css">
-  <script src="/js/utils.js"></script>
+
 </head>
 <body>
    <?php  echo $config->gtm["gtm_body"]; ?> 
@@ -39,15 +37,20 @@
 
       <!-- The Modal -->
       <div id="myModal" class="modal">
+          <!-- The Close Button -->
+          <span class="close">&times;</span>
 
-        <!-- The Close Button -->
-        <span class="close">&times;</span>
-
-        <!-- Modal Content (The Image) -->
-        <img class="modal-content" id="img01">
-
-        <!-- Modal Caption (Image Text) -->
-        <div id="caption"></div>
+          <!-- Next and previous buttons -->
+          <div class="arrow prev" onclick="plusSlides(-1)">
+              <a>&#10094;</a>
+          </div>
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img01">
+          <!-- Modal Caption (Image Text) -->
+          <div id="caption"></div>
+          <div class="arrow next" onclick="plusSlides(1)">
+              <a>&#10095;</a>
+          </div>
       </div>
 
       <div class="row_gal desctop" >

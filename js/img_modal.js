@@ -54,7 +54,7 @@ function plusSlides(slide){
 
     if(currIndex < 0) currIndex = srcList.length-1;
     if(currIndex >= srcList.length) currIndex = 0;
-    //console.log("set currIndex "+currIndex);
+    //console.lo g("set currIndex "+currIndex);
 
     previewClick(IndexToSrc(currIndex));
 }
