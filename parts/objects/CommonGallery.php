@@ -19,6 +19,9 @@ class CommonGallery
         $this->previewPath = "/$append/$initFile/preview/";
     }
 
+    /**
+     * @return string
+     */
     public function modalImageView(): string
     {
         return '

@@ -1,0 +1,21 @@
+.cart {
+    border: 1px solid aquamarine;
+    margin-bottom: 1rem;
+}
+
+.cart_img>a>img{
+    width: 100%;
+    padding: 0 1rem 0 1rem;
+}
+
+.cart_title{
+    margin-top: 0.3rem;
+}
+.cart_title>div{
+    margin: auto;
+    text-align: center;
+}
+
+.cart_link{
+    margin-top: 1rem;
+}

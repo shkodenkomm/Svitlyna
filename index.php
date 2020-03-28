@@ -5,11 +5,12 @@
     include "parts/head_links.php";
     include "parts/main_menu.php";
     include "parts/config.php";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <?php include "parts/head_links.php";
+  <?php
     echo $config->gtm["gan_head"];
     echo $config->gtm["gtm_head"];
   ?>
@@ -45,75 +46,114 @@
             </div>
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
         </section >
-        <section>
+        <section class="row">
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
             <div class="col-8 col-s-12">
-                <section id="tiles">
-                    <div class="col-6" id="tile1">
-                        <div class="tile_caption col-12">
-                            СЕМЕЙНАЯ ФОТОСЕССИЯ И ЛАВСТОРИ
-                        </div>
-                        <div >
-                            <a href="/gals/family.php" class="tile_img  col-12">
-                                <img src="/imgs/main_cats/IMGP7935_hq_hq.jpg">
-                            </a>
-
-                        </div>
-                    </div>
-                    <div class="col-6" id="tile2">
-                        <div class="tile_caption col-12">
-                            ДЕТСКАЯ ФОТОСЕССИЯ
-                        </div>
-                        <div class="tile_img col-12">
-                            <a href="/gals/children.php" class="tile_img  col-12">
-                                <img src="/imgs/main_cats/IMGP8351_hq_hq.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-6" id="tile3">
-                        <div class="tile_caption col-12">
-                            ПЕРСОНАЛЬНАЯ ФОТОСЕССИЯ
-                        </div>
-                        <div class="tile_img col-12">
-                            <a href="/gals/personal.php" class="tile_img  col-12">
-                                <img src="/imgs/main_cats/IMGP6235_hq_crop_hq.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-6" id="tile4">
-                        <div class="tile_caption col-12">
-                            ПРОГУЛКА С ЛОШАДЯМИ
-                        </div>
-                        <div class="tile_img col-12">
-                            <a href="/gals/photo_walk_with_horses.php" class="tile_img  col-12">
-                                <img src="/imgs/main_cats/IMGP3991_hq_hq.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-6" id="tile5">
-                        <div class="tile_caption col-12">
-                            ТАИНСТВО КРЕЩЕНИЯ
-                        </div>
-                        <div class="tile_img col-12">
-                            <a href="/gals/crist.php" class="tile_img  col-12">
-                                <img src="/imgs/gals/crist/10_a.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-6" id="tile6">
-                        <div class="tile_caption col-12">
-                            СЕРИИ
-                        </div>
-                        <div class="tile_img col-12">
-                            <a href="/series.php" class="tile_img  col-12">
-                                <img src="/imgs/main_cats/stitul.jpg">
-                            </a>
-                        </div>
-                    </div>
+              <h1>Детский и семейный фотограф в Киеве</h1>
+               <section>
+                    <?php include "aboutMe.php" ?>
+                </section>
             </div>
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
         </section>
+        <section class="row">
+            <div class="col-2 col-s-0 col-m-0"><p></p></div>
+            <div class="col-8 col-s-12">
+                <h1>Услуги фотографа в Киеве</h1>
+                <section>
+
+                    <?php
+                    include "parts/objects/CommonCart.php";
+
+                    insertCart("/gals/series/ng_avto.php",
+                        "/imgs/series/ng_avto/1.jpg",
+                        "Семейная фотосессия",
+                        "Этот вариант лучше всего подходит семьям, у которых есть дети. Цель сьемки запечатлеть
+                                взаимодействие между всеми членами семьи.",
+                        "Подробнее");
+
+                    insertCart("/gals/series/ng_avto.php",
+                        "/imgs/series/ng_avto/1.jpg",
+                        "Семейная фотосессия",
+                        "Этот вариант лучше всего подходит семьям, у которых есть дети. Цель сьемки запечатлеть
+                                взаимодействие между всеми членами семьи.",
+                        "Подробнее");
+                    insertCart("/gals/series/ng_avto.php",
+                        "/imgs/series/ng_avto/1.jpg",
+                        "Семейная фотосессия",
+                        "Этот вариант лучше всего подходит семьям, у которых есть дети. Цель сьемки запечатлеть
+                                взаимодействие между всеми членами семьи.",
+                        "Подробнее");
+                    insertCart("/gals/series/ng_avto.php",
+                        "/imgs/series/ng_avto/1.jpg",
+                        "Семейная фотосессия",
+                        "Этот вариант лучше всего подходит семьям, у которых есть дети. Цель сьемки запечатлеть
+                                взаимодействие между всеми членами семьи.",
+                        "Подробнее");
+                    insertCart("/gals/series/ng_avto.php",
+                        "/imgs/series/ng_avto/1.jpg",
+                        "Семейная фотосессия",
+                        "Этот вариант лучше всего подходит семьям, у которых есть дети. Цель сьемки запечатлеть
+                                взаимодействие между всеми членами семьи.",
+                        "Подробнее");
+                    insertCart("/gals/series/ng_avto.php",
+                        "/imgs/series/ng_avto/1.jpg",
+                        "Семейная фотосессия",
+                        "Этот вариант лучше всего подходит семьям, у которых есть дети. Цель сьемки запечатлеть
+                                взаимодействие между всеми членами семьи.",
+                        "Подробнее");
+                    ?>
+
+
+                </section>
+            </div>
+            <div class="col-2 col-s-0 col-m-0"><p></p></div>
+        </section>
+
     </main>
     <script src="/js/slide.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

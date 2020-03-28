@@ -9,3 +9,7 @@
 
     include "$path/common_gallery.php"
 ?>
+
+/*
+
+*/
