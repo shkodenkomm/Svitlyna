@@ -49,7 +49,6 @@
         <section class="row">
             <div class="col-2 col-s-0 col-m-0"><p></p></div>
             <div class="col-8 col-s-12">
-              <h1>Детский и семейный фотограф в Киеве</h1>
                <section>
                     <?php include "aboutMe.php" ?>
                 </section>

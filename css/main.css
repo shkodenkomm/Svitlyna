@@ -31,6 +31,13 @@ body {
         height: auto;
         width: 300px;
     }
+    h1{
+        font-size: large;
+        text-align: center;
+        text-indent: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
 }
 @media only screen and (min-width: 600px) {
     /* For tablets: */
@@ -165,9 +172,6 @@ nav p, .nav-link {
     color: darkblue;
 }
 
-/*  .logo_container{
-    flex-grow: 1;
-  }+*/
 
 .nav_container {
     flex-grow: 6;
@@ -189,18 +193,9 @@ nav p, .nav-link {
     display: none;
 }
 
-.aboutMe {
-    display: flex;
-    justify-content: flex-end;
-}
-.aboutMe>div {
-    width: 50%;
-}
-
-.aboutMe>article{
-    font-size: larger;
-}
-.aboutMe img {
-    width: 100%;
-    float: right;
+h1{
+    font-size: x-large;
+    text-indent: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }

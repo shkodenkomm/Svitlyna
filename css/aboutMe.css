@@ -1,0 +1,63 @@
+.aboutMe{
+    margin-top: 2rem;
+    position: relative;
+}
+.aboutMe div{
+    border: 1px solid aquamarine;
+}
+
+.me_text>div{
+
+}
+.me_text>ul{
+    margin-top: 0.2rem;
+    line-height: 1.2;
+}
+
+.part1{
+    width: 90%;
+    background-color: rgb(243,242,233);
+    padding-bottom: 5rem;
+}
+
+.part2{
+    width: 40%;
+    position: absolute;
+    top: 70px;
+    left: 55%;
+    z-index: 10;
+}
+
+.me_img>img{
+    max-width: 100%;
+}
+
+.mobile_img{
+    display: none;
+}
+
+.text_block{
+    padding-right: 40%;
+    padding-left: 2rem;
+    font-size: larger;
+}
+
+
+@media only screen and (max-width: 600px) {
+/* For mobiles 0: */
+    .part2{
+        display: none;
+    }
+    .part1{
+        width: 100%;
+    }
+    .text_block{
+        padding-right: 0;
+    }
+    .mobile_img{
+        display: block;
+    }
+    .mobile_img>img{
+        max-width: 90%;
+    }
+}
