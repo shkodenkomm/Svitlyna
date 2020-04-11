@@ -32,7 +32,6 @@ body {
         width: 300px;
     }
 }
-
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-s-0 {
@@ -92,7 +91,6 @@ body {
         width: auto;
     }
 }
-
 @media only screen and (min-width: 826px) {
     /* For desktop: */
     .col-1 {
@@ -148,12 +146,10 @@ body {
         width: auto;
     }
 }
-
 @font-face {
     font-family: mistral;
     src: url(/css/mistral.ttf);
 }
-
 @font-face {
     font-family: gabriola;
     src: url(/css/gabriola.ttf);

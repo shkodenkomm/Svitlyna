@@ -1,6 +1,8 @@
 .cart {
     border: 1px solid aquamarine;
     margin-bottom: 1rem;
+    padding-left: 5px;
+    padding-right: 2px;
 }
 
 .cart_img>a>img{
@@ -18,4 +20,14 @@
 
 .cart_link{
     margin-top: 1rem;
+}
+/* НУЖЕН МОБИЛЬНІЙ ВАРИАНТ */
+.cart_article{
+    display: inline-block;
+    height: 4rem;
+}
+
+article.article>p{
+    text-indent: 2rem;
+    text-align: justify;
 }
