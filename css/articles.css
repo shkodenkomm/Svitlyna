@@ -1,0 +1,43 @@
+.background-block{
+    background-color: rgb(244,243,236) ;
+    padding: 1rem 1rem 1rem 1rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+
+}
+
+div{
+border: 1px solid aquamarine;
+}
+
+.background-block>div{
+    padding: 0 1rem 1rem 1rem;
+
+}
+
+.background-block>div>span{
+    margin: 6px 0 6px 0;
+    text-indent: 2rem;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.img-right>p{
+
+}
+
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-right>div>img{
+    max-height: 800px;
+    max-width: 400px;
+    transform: translateY(-50px);
+}

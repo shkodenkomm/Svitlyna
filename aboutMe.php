@@ -29,7 +29,7 @@
         </div>
         <div class="part2">
             <div class="me_img">
-                <img src="imgs/photografer.png" alt="">
+                <img class="border-dark" src="imgs/photografer.png" alt="">
             </div>
         </div>
     </article>

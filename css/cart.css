@@ -26,8 +26,3 @@
     display: inline-block;
     height: 4rem;
 }
-
-article.article>p{
-    text-indent: 2rem;
-    text-align: justify;
-}
