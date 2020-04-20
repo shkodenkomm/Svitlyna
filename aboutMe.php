@@ -1,15 +1,15 @@
 <?php ?>
 <div class="aboutMe">
-    <link rel="stylesheet" href="/css/aboutMe.css">
+<!--    <link rel="stylesheet" href="/css/aboutMe.css">-->
     <article>
-        <div class="part1">
-            <h1>Детский и семейный фотограф в Киеве</h1>
+        <h1>Детский и семейный фотограф в Киеве</h1>
+        <div class="part1 m-bachround">
             <div class="text_block">
                 <div class="me_title">
                     <i>Приветствую Вас на моем сайте!</i>
                 </div>
                 <div class="mobile_img">
-                    <img src="imgs/photografer.png" alt="">
+                    <img src="imgs/photografer.jpg" alt="">
                 </div>
                 <div class="me_text">
                     <div>Меня зовут Елена Хоменко. Я профессиональный фотограф и очень люблю свою работу. Снимаю в таких
@@ -29,7 +29,7 @@
         </div>
         <div class="part2">
             <div class="me_img">
-                <img class="border-dark" src="imgs/photografer.png" alt="">
+                <img class="border-dark" src="imgs/photografer.jpg" alt="">
             </div>
         </div>
     </article>

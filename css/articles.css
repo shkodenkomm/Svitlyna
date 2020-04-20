@@ -1,43 +1,80 @@
 .background-block{
-    background-color: rgb(244,243,236) ;
     padding: 1rem 1rem 1rem 1rem;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-
+}
+ul h2{
+    font-size: 19px;
+    margin:0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    display: inline;
 }
 
-div{
-border: 1px solid aquamarine;
+p>h2{
+    font-size: 20px;
+    margin:0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    display: inline;
+}
+/*div{*/
+/*border: 1px solid aquamarine;*/
+/*}*/
+
+.background-block .txt{
+    padding-top: 2rem;
+    padding-right: 2rem;
+    display: inline-block;
 }
 
-.background-block>div{
-    padding: 0 1rem 1rem 1rem;
-
-}
-
-.background-block>div>span{
-    margin: 6px 0 6px 0;
+.background-block Ul{
     text-indent: 2rem;
-    font-size: 12px;
-    line-height: 1.4;
+    font-size: 19px;
+    line-height: 1.2;
+    text-align: justify;
+    margin: 0;
+    padding-left: 2rem;
+}
+.background-block Ul>li{
+    margin-bottom: 0.5rem;
+}
+.background-block p{
+    text-indent: 4rem;
+    font-size: 19px;
+    line-height: 1.2;
+    text-align: justify;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
 }
 
-.img-right>p{
-
-}
-
-
-.img{
+.txt img{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 350px;
 }
 
-.img-right>div>img{
-    max-height: 800px;
-    max-width: 400px;
-    transform: translateY(-50px);
+.img-left{
+    float: left;
+    margin: 5px 10px 0 20px; /* Отступы вокруг картинки */
+    transform: translateY(-20px) translateX(-20px);
+}
+
+.img-right{
+    float: right; /* Выравнивание по правому краю  */
+    margin: 5px 10px 0 20px;
+    transform: translateY(-20px) translateX(20px);
+}
+
+@media only screen and (max-width: 600px) {
+    .txt img{
+        width: 240px;
+        float: none;
+        margin: auto;
+        transform: none;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
 }

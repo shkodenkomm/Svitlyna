@@ -4,6 +4,7 @@
 
 body {
     min-width: 240px;
+    font-family: monserrat;
     /*background-color: black*/
 }
 
@@ -13,6 +14,9 @@ body {
     display: table;
 }
 
+.m-bachround{
+    background-color: rgb(243,242,233);
+}
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -34,12 +38,17 @@ body {
     h1{
         font-size: large;
         text-align: center;
-        text-indent: 1rem;
         margin-top: 1rem;
         margin-bottom: 0.5rem;
     }
 }
 @media only screen and (min-width: 600px) {
+    h1{
+        font-size: large;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
     /* For tablets: */
     .col-s-0 {
         width: 0
@@ -155,11 +164,21 @@ body {
 }
 @font-face {
     font-family: mistral;
-    src: url(/css/mistral.ttf);
+    src: url(/fonts/mistral.ttf);
 }
 @font-face {
     font-family: gabriola;
-    src: url(/css/gabriola.ttf);
+    src: url(/fonts/gabriola.ttf);
+}
+
+@font-face {
+    font-family: palatino;
+    src: url(/fonts/9991.ttf);
+}
+
+@font-face {
+    font-family: monserrat;
+    src: url(/fonts/16785.ttf);
 }
 
 main {
@@ -194,13 +213,16 @@ nav p, .nav-link {
 }
 
 h1{
+    text-align: left;
     font-size: x-large;
     text-indent: 3rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    font-family: palatino;
 }
 
 .border-dark{
-    border: 4px solid rgba(0, 0, 0, 0.6);
-    border-radius: 6px 6px 6px 6px;
+    /*border: 4px solid rgba(0, 0, 0, 0.6);*/
+    /*border-radius: 6px 6px 6px 6px;*/
+    box-shadow: 7px 7px 14px 0 #353535bf;
 }

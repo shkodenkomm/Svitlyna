@@ -36,9 +36,7 @@ class MainMenu{
                     <p>/</p>
                     <a class="nav-link" href="/series.php">СЕРИИ</a>
                     <p>/</p>
-                    <a style="color: grey" class="nav-link" href="#">СТАТЬИ</a>
-                    <p>/</p>  
-                    <a class="nav-link" href="/contacts.php">ОБО МНЕ</a>
+                    <a class="nav-link" href="/contacts.php">КОНТАКТЫ</a>
                 </nav>
              </div>';
     }
