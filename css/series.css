@@ -27,11 +27,11 @@
     /*justify-content: center;*/
 }
 
-.img_part>a>img{
+.tile_img>a>img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 99%;
 }
 
 .text_part{

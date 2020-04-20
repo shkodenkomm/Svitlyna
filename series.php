@@ -33,7 +33,7 @@
 <main>
     <section>
         <div class="col-2 col-s-0 col-m-0"><p></p></div>
-        <div class="col-8 col-s-12">
+        <div class="col-8 col-s-8">
             <section id="tiles">
 
 

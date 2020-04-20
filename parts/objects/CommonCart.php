@@ -39,26 +39,26 @@
         <link rel="stylesheet" href="/css/cart.css">
         ';
 
-        insertCart("/gals/series/ng_avto.php",
+        insertCart("/gals/personal.php",
             "/imgs/main_cats/personal.jpg",
             "Персональная фотосессия",
             "Это вид сьемки, цель которой подчеркнуть индивидуальность главного героя (мужчины или женщины), показать его красоту, уникальность, стиль.",
             "Подробнее");
 
-        insertCart("/gals/series/ng_avto.php",
+        insertCart("/gals/children.php",
             "/imgs/main_cats/children_small.png",
             "Детская фотосессия",
             "Главный герой этой сьемки один ребенок или несколько детей. Детская фотосессия — это безграничное поле для фантазий и творчества.",
             "Подробнее");
 
-        insertCart("/gals/series/ng_avto.php",
+        insertCart("/gals/series/family.php",
             "/imgs/main_cats/family.jpg",
             "Семейная фотосессия",
             "Этот вариант лучше всего подходит семьям, у которых есть дети. Цель сьемки запечатлеть взаимодействие между всеми членами семьи",
             "Подробнее");
 
 
-        insertCart("/gals/series/ng_avto.php",
+        insertCart("/gals/series/natasha_sasha.php",
             "/imgs/main_cats/pregant_small.png",
             "Фотосессия беременности",
             "Это самый нежный, трогательный вид фотосессии, в котором главной героиней выступает будущая мама.",
@@ -72,13 +72,13 @@
             "Подробнее");
 
 
-        insertCart("/gals/series/ng_avto.php",
+        insertCart("/gals/series/photo_walk_with_horses.php",
             "/imgs/main_cats/animals_small.png",
             "Фотосессия с лошадями ",
             "Фото прогулка с лошадями подходит людям, которые любят этих прекрасных животных, катание верхом и прогулки на природе.",
             "Подробнее");
 
-        insertCart("/gals/series/ng_avto.php",
+        insertCart("/gals/series/crist.php",
             "/imgs/main_cats/motherdother.jpg",
             "Фотосессия мама и дочка",
             "Идеальный вариант фотосессии для мамы с дочкой. Является вариантом семейной фотосессии, но весь фокус направлен на отношения мамы с дочкой, отражение их любви, ласки, заботы.",

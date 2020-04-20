@@ -8,7 +8,7 @@
 
 .cart h2{
     margin:0;
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 
 .blok{
@@ -31,7 +31,9 @@
 .cart_title{
     height: 2rem;
     margin-bottom: 0.5rem;
-    text-align: center;
+    margin-top: 0.5rem;
+    padding-left: 2rem;
+    text-align: left;
     font-size: 1rem;
     line-height: 0.8;
 }
@@ -42,18 +44,33 @@
 .cart_link{
     text-align: right;
     padding-right: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .cart_article{
-    height: 8rem;
+    height: 6rem;
     padding-left: 1rem;
     padding-right: 1rem;
     text-indent: 2rem;
     text-align: justify;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1440px) {
+    .cart_article{
+        height: 10rem;
+    }
+}
+
+
+@media only screen and (max-width: 756px) {
+    .blok{
+        font-size: 0.8em;
+    }
+
+    .cart_title{
+        font-size: 0.9em;
+    }
     .cart_article{
         height: 6rem;
     }

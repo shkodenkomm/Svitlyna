@@ -3,9 +3,22 @@
 }
 
 body {
-    min-width: 240px;
-    font-family: monserrat;
+    min-width: 320px;
+    font-family: 'monserrat';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2em;
+    line-height: 1.2;
     /*background-color: black*/
+}
+
+h1{
+    text-align: left;
+    font-size: 1.5em;
+    text-indent: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-family: palatino;
 }
 
 .row::after {
@@ -25,7 +38,7 @@ body {
     /*border: 1px solid red;ё*/
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 756px) {
     /* For mobiles 0: */
     .col-m-0 {
         width: 0
@@ -36,19 +49,17 @@ body {
         width: 300px;
     }
     h1{
-        font-size: large;
-        text-align: center;
-        margin-top: 1rem;
+        text-align:  center;
+        font-size: 1.1em;
+        margin-top: 1.5rem;
         margin-bottom: 0.5rem;
+        font-family: palatino;
+        text-indent: 0;
     }
-}
-@media only screen and (min-width: 600px) {
-    h1{
-        font-size: large;
-        text-align: center;
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
-    }
+ }
+@media only screen and (min-width: 757px) {
+
+
     /* For tablets: */
     .col-s-0 {
         width: 0
@@ -107,7 +118,7 @@ body {
         width: auto;
     }
 }
-@media only screen and (min-width: 826px) {
+@media only screen and (min-width: 1025px) {
     /* For desktop: */
     .col-1 {
         width: 8.33%;
@@ -178,7 +189,7 @@ body {
 
 @font-face {
     font-family: monserrat;
-    src: url(/fonts/16785.ttf);
+    src: url(/fonts/Montserrat-Regular.ttf);
 }
 
 main {
@@ -212,17 +223,6 @@ nav p, .nav-link {
     display: none;
 }
 
-h1{
-    text-align: left;
-    font-size: x-large;
-    text-indent: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-family: palatino;
-}
-
 .border-dark{
-    /*border: 4px solid rgba(0, 0, 0, 0.6);*/
-    /*border-radius: 6px 6px 6px 6px;*/
     box-shadow: 7px 7px 14px 0 #353535bf;
 }
