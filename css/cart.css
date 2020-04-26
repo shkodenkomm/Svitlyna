@@ -7,8 +7,10 @@
 }
 
 .cart h2{
-    margin:0;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
     font-size: 1.2em;
+    color: #523821db;
 }
 
 .blok{
@@ -26,6 +28,7 @@
     width: 100%;
     transform: translateY(6rem);
     box-shadow: 7px 7px 14px 0 #353535bf;
+    border-radius: 30px;
 }
 
 .cart_title{
@@ -73,6 +76,23 @@
     }
     .cart_article{
         height: 6rem;
+    }
+}
+
+
+@media only screen and (min-width: 2100px) {
+    .cart_title{
+        font-size: 1em;
+        margin-top: 0.6rem ;
+        margin-bottom: 1rem;
+    }
+    .cart_article{
+        font-size: 1.9rem;
+        height: 9rem;
+        padding-left: 2rem;
+        padding-right: 3rem;
+        text-indent: 2rem;
+        margin-top: 2rem;
     }
 }
 

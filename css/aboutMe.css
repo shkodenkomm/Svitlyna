@@ -14,7 +14,7 @@
 
 
 .me_title{
-    text-align: center;
+    text-align: left;
     padding-bottom: 1rem;
     padding-top: 1rem;
     font-size: 1.2em;
@@ -37,7 +37,7 @@
 
 
 .me_text{
-    text-indent: 2rem;
+    text-indent: 0;
     text-align: justify;
     line-height: 1.2;
 }

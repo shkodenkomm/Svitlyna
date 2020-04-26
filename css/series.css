@@ -3,7 +3,7 @@
 }
 
 .middle_pad {
-    padding-right: 0.2rem;
+    /*padding-right: 0.2rem;*/
 }
 
 
@@ -13,7 +13,6 @@
     background-image: linear-gradient(to bottom, rgba(252,237,182,0.8), rgba(252,237,182,1));
     text-align: center;
     padding-top: 0.3rem;
-    font-size: x-large;
     color: #1a1248;
 }
 
@@ -40,4 +39,11 @@
 }
 .text_part>p{
     margin-left: 2rem;
+}
+@media only screen and (min-width: 2100px) {
+
+    .seria_caption{
+        font-size: 1.8em;
+    }
+
 }

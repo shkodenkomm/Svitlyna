@@ -14,29 +14,35 @@ class MainMenu{
         $this->style[] = '<link rel="stylesheet" href="/css/drop_down.css">';
 
         $this->logo_container =
-            '<div class="logo_container">'.
-            '<img src="/imgs/logo.png" alt="PIG">
+            '<div class="logo_container">
+                <span class="photoname">ЕЛЕНА ХОМЕНКО</span>
+                <span class="palochka">|</span>
+                <span>Фотограф Киев</span>
             </div>';
 
         $this->nav_container =
              '<div class=nav_container>  
                 <nav class="topnav">  
-                    <a class="nav-link" href="/">ГЛАВНАЯ</a>
-                    <p>/</p>
+                    <a class="nav-link" href="/">Главная</a>
+                    <span>/</span>
                     <div class="dropdown" id="menu1">
-                        <a class="dropbtn nav-link" href="#" onclick="toogleMenu(\'menu1\')">&nbsp;&nbsp;ПОРТФОЛИО&nbsp;&nbsp;</a>
+                        <a class="dropbtn nav-link" href="#" onclick="toogleMenu(\'menu1\')">Портфолио</a>
                         <div class="dropdown-content">
-                            <a href="/gals/family.php">Семейная фотосессия</a>
-                            <a href="/gals/children.php">Детская фотосессия</a>
                             <a href="/gals/personal.php">Персональная фотосессия</a>
+                            <a href="/gals/children.php">Детская фотосессия</a>
+                            <a href="/gals/family.php">Семейная фотосессия</a>
+                            <a href="/gals/series/natasha_sasha.php">Фотосессия беременности</a>
+                            <a href="/gals/series/love_story.php">Love story</a>
                             <a href="/gals/photo_walk_with_horses.php">Фотосессия с лошадями</a>
-                            <a href="/gals/crist.php">Таинство крещения</a>
+                            <a href="/gals/series/mother_doter.php">Фотосессия мама и дочка</a>
+                            <a href="/gals/crist.php">Съемка крестин</a>
+                            
                         </div>
                     </div>
-                    <p>/</p>
-                    <a class="nav-link" href="/series.php">СЕРИИ</a>
-                    <p>/</p>
-                    <a class="nav-link" href="/contacts.php">КОНТАКТЫ</a>
+                    <span>/</span>
+                    <a class="nav-link" href="/series.php">Серии</a>
+                    <span>/</span>
+                    <a class="nav-link" href="/contacts.php">Контакты</a>
                 </nav>
              </div>';
     }

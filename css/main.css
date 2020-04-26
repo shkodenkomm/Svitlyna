@@ -19,6 +19,8 @@ h1{
     margin-top: 3rem;
     margin-bottom: 1rem;
     font-family: palatino;
+    color: #523821;
+    font-weight: bold;
 }
 
 .row::after {
@@ -28,7 +30,8 @@ h1{
 }
 
 .m-bachround{
-    background-color: rgb(243,242,233);
+    /*background-color: rgb(243,242,233);*/
+   background-color: #f3f2ea;
 }
 
 /* For mobile phones: */
@@ -50,7 +53,7 @@ h1{
     }
     h1{
         text-align:  center;
-        font-size: 1.1em;
+        font-size: 1.8em;
         margin-top: 1.5rem;
         margin-bottom: 0.5rem;
         font-family: palatino;
@@ -173,10 +176,7 @@ h1{
         width: auto;
     }
 }
-@font-face {
-    font-family: mistral;
-    src: url(/fonts/mistral.ttf);
-}
+
 @font-face {
     font-family: gabriola;
     src: url(/fonts/gabriola.ttf);
@@ -192,16 +192,38 @@ h1{
     src: url(/fonts/Montserrat-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'FoglihtenNo06';
+    src:  url('/fonts/FoglihtenNo06.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
 main {
     margin-top: 0.1rem;
 }
 
-nav p, .nav-link {
-    font-family: mistral;
-    font-size: large;
-    color: darkblue;
+nav p, .nav-link, .logo_container {
+    font-family: monserrat;
+    color: #523821;
 }
 
+.logo_container>.photoname{
+    font-size: 1.8em;
+    color: #523821;
+    font-family: FoglihtenNo06;
+    font-weight: bold;
+}
+
+.logo_container{
+    display: flex;
+    align-items: center;
+}
+
+.palochka{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
 
 .nav_container {
     flex-grow: 6;
@@ -211,11 +233,13 @@ nav p, .nav-link {
 }
 
 .main_logo {
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
-    background-image: linear-gradient(to right, rgba(62, 184, 254, 0.6) 10%, rgba(252, 237, 182, 0.9) 50%);
+    /*background-image: linear-gradient(to right, rgba(62, 184, 254, 0.6) 10%, rgba(252, 237, 182, 0.9) 50%);*/
 }
 
 
@@ -225,4 +249,21 @@ nav p, .nav-link {
 
 .border-dark{
     box-shadow: 7px 7px 14px 0 #353535bf;
+}
+
+@media only screen and (min-width: 2100px) {
+    h1{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    body{
+        font-size: 2em;
+    }
+    .logo_container{
+        font-size: 1em;
+    }
+    .topnav{
+       margin-top: 2rem;
+       margin-bottom: 1rem;
+    }
 }
