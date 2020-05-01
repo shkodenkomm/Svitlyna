@@ -5,6 +5,7 @@
     include "../parts/head_links.php";
     include "../parts/main_menu.php";
     include "../parts/config.php";
+    include "../parts/objects/GalleryTextProducer.php";
 ?>
 <html lang="ru">
 <head>
@@ -31,7 +32,16 @@
             </div>
          </div>
         <div class="col-1 col-s-0 col-m-0"><p></p></div>
-    </header>
+   </header>
+   <section class="row">
+       <div class="col-1 col-s-0 col-m-0" ><p></p></div>
+       <div class="col-10 col-s-12" >
+           <?php
+           HorseText();
+           ?>
+       </div>
+       <div class="col-1 col-s-0 col-m-0" ><p></p></div>
+   </section>
   <section class="row root_img">
     <div class="col-1 col-s-0 col-m-0" ><p></p></div>
     <div class="col-10 col-s-12" >

@@ -6,6 +6,7 @@
 
     $gl = new CommonGallery(pathinfo(__FILE__, PATHINFO_FILENAME), "imgs/series");
     $gl->pageTitle = "Фотосессия мама и дочка";
+    $gl->textFunction = "MotherText";
 
     include "$path/common_gallery.php"
 ?>

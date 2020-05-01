@@ -6,6 +6,8 @@
     text-align: center;
     padding-right: 20px;
     flex-wrap: wrap;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -14,7 +16,6 @@
     min-width: 110px;
     padding-left: 0.2rem;
     text-decoration: none;
-    align-self: center;
 }
 
 .topnav span {
@@ -39,19 +40,23 @@
 
 
 /*убрать разделители меню*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
     .topnav{
         padding-right: 5px;
     }
     .topnav>a {
         min-width: 60px;
     }
+    .topnav {
+        justify-content: center;
+    }
+
 }
 
 
 /*убрать разделители меню*/
 @media only screen and (max-width: 350px) {
-    .topnav p{
+    .topnav span{
         display: none;
     }
 }

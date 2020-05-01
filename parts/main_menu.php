@@ -16,8 +16,7 @@ class MainMenu{
         $this->logo_container =
             '<div class="logo_container">
                 <span class="photoname">ЕЛЕНА ХОМЕНКО</span>
-                <span class="palochka">|</span>
-                <span>Фотограф Киев</span>
+                <span> &nbsp;&nbsp;Фотограф Киев</span>
             </div>';
 
         $this->nav_container =

@@ -45,15 +45,18 @@
 /*.dropdown:hover .dropdown-content {  display: block;}*/
 .show {display:block;}
 
-.dropdown:hover .dropbtn {  color: #f1f1f1;}
 
-@media only screen and (max-width: 384px) {
+@media only screen and (max-width: 650px) {
     .dropdown-content {
         position: inherit;
+        min-width: 360px;
+    }
+    .dropdown-content a {
+        min-width: 330px;
     }
 }
 
-@media only screen and (min-width: 385px) {
+@media only screen and (min-width: 650px) {
     .dropdown-content {
         position: absolute;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);

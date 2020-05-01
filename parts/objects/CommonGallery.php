@@ -1,10 +1,16 @@
 <?php
 
 include "Utils.php";
+include "GalleryTextProducer.php";
+
 
 class CommonGallery
 {
     public $pageTitle;
+    public $textFunction;
+    public function CallText(){
+        call_user_func($this->textFunction);
+    }
 
     private $previewPath;
     private $gName;

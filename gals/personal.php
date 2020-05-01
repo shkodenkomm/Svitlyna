@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<?php 
+<?php
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
     include "../parts/head_links.php";
     include "../parts/main_menu.php";
     include "../parts/config.php";
+    include "../parts/objects/GalleryTextProducer.php";
+
 ?>
 <html lang="ru">
 <head>
 
-    <title>Портреты</title>
+    <title>Персональная фотосессия</title>
 
     <?php
           echo $config->gtm["gan_head"];
@@ -29,10 +31,19 @@
                     $menu= new MainMenu();
                     $menu->doit();                    
                 ?>
-            </div>
+            </div><div class="col-1 col-s-0 col-m-0" ><p></p></div>
          </div>
         <div class="col-1 col-s-0 col-m-0"><p></p></div>
     </header>
+   <section class="row">
+       <div class="col-1 col-s-0 col-m-0" ><p></p></div>
+       <div class="col-10 col-s-12" >
+           <?php
+                personalText();
+            ?>
+       </div>
+       <div class="col-1 col-s-0 col-m-0" ><p></p></div>
+   </section>
   <section class="row root_img">
     <div class="col-1 col-s-0 col-m-0" ><p></p></div>
     <div class="col-10 col-s-12" >

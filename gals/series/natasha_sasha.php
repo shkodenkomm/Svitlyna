@@ -5,7 +5,9 @@
     include "$path/objects/CommonGallery.php";
 
     $gl = new CommonGallery(pathinfo(__FILE__, PATHINFO_FILENAME), "imgs/series");
-    $gl->pageTitle = "В ожидании чуда";
+    $gl->pageTitle = "Фотосессия беременности";
+    $gl->textFunction = 'PregantText';
+
 
     include "$path/common_gallery.php"
 ?>
