@@ -46,7 +46,7 @@
             "Подробнее");
 
         insertCart("/gals/children.php",
-            "/imgs/main_cats/children_small.png",
+            "/imgs/main_cats/children.jpg",
             "Детская фотосессия",
             "Главный герой этой сьемки один ребенок или несколько детей. Детская фотосессия — это безграничное поле для фантазий и творчества.",
             "Подробнее");
@@ -59,7 +59,7 @@
 
 
         insertCart("/gals/series/natasha_sasha.php",
-            "/imgs/main_cats/pregant_small.png",
+            "/imgs/main_cats/pregant.jpg",
             "Фотосессия беременности",
             "Это самый нежный, трогательный вид фотосессии, в котором главной героиней выступает будущая мама.",
             "Подробнее");

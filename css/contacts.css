@@ -39,9 +39,7 @@
       white-space: nowrap;
     }
 
-    .contakts article{
 
-    }
 
    .contakts .text1{
       text-indent: 2rem;
@@ -58,9 +56,25 @@
       padding-right: 30px;
     }
 
+   .phone{
+       word-break: keep-all;
+   }
+
+    .social{
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+
+   .social a>img{
+       width: 48px;
+       height: 48px;
+       margin-right: 3rem;
+   }
+
   @media only screen and (max-width: 756px) {
     .viber_desctop{display: none;}
-    .viber_mobile{display: block;} 
+    .viber_mobile{display: block;}
     #self_text{
       font-size: 18px;
     }
@@ -71,7 +85,7 @@
 
   
   @media only screen and (min-width: 756px) {
-    .viber_desctop{display: block;}
+    .viber_desctop{display: inline;}
     .viber_mobile{display: none;}
   }
 

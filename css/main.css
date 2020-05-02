@@ -194,7 +194,7 @@ h1{
 
 @font-face {
     font-family: 'FoglihtenNo06';
-    src:  url('/fonts/FoglihtenNo06.ttf') format('truetype');
+    src:  url('/fonts/foglihtenno06.woff') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -226,11 +226,6 @@ nav p, .nav-link, .logo_container {
     flex-wrap: wrap;
     align-items: center;
     margin: auto;
-}
-
-.palochka{
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
 }
 
 .nav_container {

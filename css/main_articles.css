@@ -61,9 +61,18 @@ p>h2{
     transform: translateY(-20px) translateX(20px);
 }
 
+.img_gal{
+    max-height:390px;
+    margin-top: 2rem;
+    width: unset;
+}
+
+
+
 @media only screen and (max-width: 756px) {
     .txt img{
         width: 240px;
+        height: unset;
         float: none;
         margin-right: auto;
         margin-left: auto;
@@ -76,6 +85,11 @@ p>h2{
         font-size: 0.8em;
         padding: 1rem 1rem 1rem 1rem;
 
+    }
+    .img_gal{
+        max-height:unset;
+        margin-top: 2rem;
+        max-width: 80%;
     }
 }
 @media only screen and (min-width: 2100px) {

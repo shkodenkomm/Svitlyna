@@ -1,5 +1,5 @@
 <?php ?>
-<link rel="stylesheet" href="/css/articles.css">
+<link rel="stylesheet" href="/css/main_articles.css">
 <article class="article">
     <div class="row background-block m-bachround">
         <div class="txt">

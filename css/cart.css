@@ -4,6 +4,7 @@
     padding-left: 5px;
     padding-right: 2px;
     display: inline-block;
+
 }
 
 .cart h2{
@@ -17,16 +18,21 @@
     padding-top: 6rem;
     margin: 1rem;
     background-color: rgb(243,242,233);
+    z-: 100;
+}
+
+.cart_img{
+    z-index: 0;
 }
 
 .cart_img>a>div{
     margin-top:-5rem;
     padding: 0 3rem 0 3rem;
+    transform: translateY(6rem);
 }
 
 .cart_img>a>div>img{
     width: 100%;
-    transform: translateY(6rem);
     box-shadow: 7px 7px 14px 0 #353535bf;
     border-radius: 30px;
 }
